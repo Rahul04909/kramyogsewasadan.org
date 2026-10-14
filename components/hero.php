@@ -5,7 +5,7 @@
     
     <!-- Slide 1 -->
     <div class="hero-slide active">
-      <img src="assets/hero/banner-1-image.jpg" alt="Mid-Day Meal Banner" class="hero-slide-image">
+      <img src="assets/hero/old-age-home-banner.jpg" alt="Mid-Day Meal Banner" class="hero-slide-image">
     </div>
 
     <!-- Slide 2 -->
