@@ -67,6 +67,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
         <li><a href="<?php echo $footer_base_url; ?>pages/health-projects.php" class="footer-link">Health Projects</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/persons-with-disabilities.php" class="footer-link">Persons with Disabilities</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/rural-children-education.php" class="footer-link">Rural Children Education</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/old-age-home.php" class="footer-link">Old Age Home</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/senior-citizen-care.php" class="footer-link">Senior Citizen Care</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/swacch-bharat-mission.php" class="footer-link">Swacch Bharat Mission</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/women-empowerment.php" class="footer-link">Women Empowerment</a></li>

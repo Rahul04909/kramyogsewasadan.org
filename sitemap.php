@@ -49,6 +49,7 @@ $static_pages = [
     '/pages/health-projects.php',
     '/pages/persons-with-disabilities.php',
     '/pages/rural-children-education.php',
+    '/pages/old-age-home.php',
     '/pages/senior-citizen-care.php',
     '/pages/swacch-bharat-mission.php',
     '/pages/women-empowerment.php'

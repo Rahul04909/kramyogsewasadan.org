@@ -201,7 +201,19 @@
           </div>
         </div>
 
-        <!-- 6. Senior Citizen Care -->
+        <!-- 6. Old Age Home Service -->
+        <div class="initiative-card">
+          <div class="initiative-card-img-wrapper">
+            <img src="../assets/images/old_age_home.png" alt="Old Age Home & Elderly Care Ashram" class="initiative-card-img" loading="lazy">
+          </div>
+          <div class="initiative-card-content">
+            <h3>Old Age Home Service</h3>
+            <p>Providing dignified residential shelter, 24/7 geriatric medical supervision, satvik dining, and emotional companionship for seniors.</p>
+            <a href="old-age-home.php" class="initiative-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- 7. Senior Citizen Care -->
         <div class="initiative-card">
           <div class="initiative-card-img-wrapper">
             <img src="../assets/images/senior_care.png" alt="Senior Citizen Care" class="initiative-card-img" loading="lazy">
@@ -213,7 +225,7 @@
           </div>
         </div>
 
-        <!-- 7. Swachh Bharat Mission -->
+        <!-- 8. Swachh Bharat Mission -->
         <div class="initiative-card">
           <div class="initiative-card-img-wrapper">
             <img src="../assets/images/swachh_bharat.png" alt="Swachh Bharat Mission" class="initiative-card-img" loading="lazy">
@@ -225,7 +237,7 @@
           </div>
         </div>
 
-        <!-- 8. Animal Welfare -->
+        <!-- 9. Animal Welfare -->
         <div class="initiative-card">
           <div class="initiative-card-img-wrapper">
             <img src="../assets/images/animal_welfare.png" alt="Animal Welfare" class="initiative-card-img" loading="lazy">
@@ -237,7 +249,7 @@
           </div>
         </div>
 
-        <!-- 9. Disaster Management -->
+        <!-- 10. Disaster Management -->
         <div class="initiative-card">
           <div class="initiative-card-img-wrapper">
             <img src="../assets/images/disaster_relief.png" alt="Disaster Management" class="initiative-card-img" loading="lazy">
@@ -267,12 +279,13 @@
       <nav class="sidebar-links-card" aria-label="Our Initiatives Menu">
         <h3>Our Programs</h3>
         <ul class="sidebar-links-list">
+          <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Old Age Home Service</a></li>
+          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
+          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
           <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
           <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
           <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
           <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women Empowerment</a></li>
-          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
-          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
           <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
           <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
           <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>

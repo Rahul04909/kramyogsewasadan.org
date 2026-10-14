@@ -62,7 +62,7 @@
           <li><strong>Monthly Nutrition Packs:</strong> Distributing dry grocery kits (containing wheat flour, rice, pulses, cooking oil, tea, and health supplements) to destitute elderly citizens.</li>
           <li><strong>Geriatric Health Camps:</strong> Conducting free regular checkups for chronic age-related issues, including blood pressure monitoring, diabetes care, joint health, and eye diagnostics.</li>
           <li><strong>Cataract Surgery Support:</strong> Funding free, safe cataract surgeries and post-operative glasses in partnership with reputable local eye care hospitals.</li>
-          <li><strong>Old Age Shelter Aid:</strong> Supporting grassroots old-age shelters with structural upgrades, clean bedding, hot meals, and hot-water geyser installations.</li>
+          <li><strong>Old Age Shelter Aid & Vriddhashram:</strong> Operating and supporting our residential <a href="old-age-home.php" style="color: #1b5182; font-weight: 700;">Old Age Home (Vriddhashram)</a> with clean bedding, 24/7 geriatric care, satvik hot meals, and hot-water geysers.</li>
         </ul>
       </section>
 
@@ -73,6 +73,7 @@
       <section class="initiative-content-block">
         <h2>Our Impact</h2>
         <p>Our monthly nutrition program currently supports over 1,200 destitute senior citizens. Additionally, our specialized eye care camps have successfully funded over 300 cataract operations, restoring vision, independence, and happiness to elderly individuals in remote rural settlements.</p>
+        <p>To learn more about our residential elder care facilities, visit our dedicated <a href="old-age-home.php" style="color: #1b5182; font-weight: 700;">Old Age Home & Elderly Care Ashram page</a>.</p>
       </section>
 
     </article>
@@ -91,15 +92,16 @@
       <nav class="sidebar-links-card" aria-label="Other Causes Links">
         <h3>Our Work</h3>
         <ul class="sidebar-links-list">
-          <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
-          <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>
-          <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
-          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
-          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
-          <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
+          <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Old Age Home Service</a></li>
           <li><a href="senior-citizen-care.php" style="color: #1b5182;"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
-          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
+          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
+          <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
+          <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
+          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
           <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women Empowerment</a></li>
+          <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
+          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
+          <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>
         </ul>
       </nav>
 
