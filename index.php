@@ -35,6 +35,9 @@
   <!-- Custom Footer Stylesheet -->
   <link rel="stylesheet" href="assets/css/footer.css">
   
+  <!-- Welcome Brochure Pop-Up Stylesheet -->
+  <link rel="stylesheet" href="assets/css/welcome-popup.css">
+  
   <!-- Base styling for index page preview -->
   <style>
     /* Clean reset and basic page styling */
@@ -81,6 +84,9 @@
 
   <!-- Call the Footer Component -->
   <?php include 'includes/footer.php'; ?>
+
+  <!-- Welcome Brochure Pop-Up Component -->
+  <?php include 'components/welcome-popup.php'; ?>
 
 </body>
 </html>

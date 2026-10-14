@@ -1,0 +1,237 @@
+/* ==========================================================================
+   Welcome Brochure Pop-Up Stylesheet
+   Kram Yog Sewa Sadan Trust
+   ========================================================================== */
+
+/* Pop-up Overlay Backdrop */
+.welcome-popup-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 18, 30, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1), 
+              visibility 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.welcome-popup-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Modal Container Dialog */
+.welcome-popup-dialog {
+  position: relative;
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 520px;
+  width: 100%;
+  max-height: 94vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 
+              0 0 0 1px rgba(255, 255, 255, 0.2);
+  transform: scale(0.88) translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.welcome-popup-backdrop.active .welcome-popup-dialog {
+  transform: scale(1) translateY(0);
+}
+
+/* Close Button (Floating Top-Right) */
+.welcome-popup-close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(17, 50, 82, 0.85);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.25s ease;
+}
+
+.welcome-popup-close-btn:hover {
+  background: #dc2626;
+  transform: rotate(90deg) scale(1.1);
+  box-shadow: 0 6px 16px rgba(220, 38, 38, 0.4);
+}
+
+/* Modal Body / Image */
+.welcome-popup-body {
+  position: relative;
+  overflow-y: auto;
+  max-height: calc(94vh - 76px);
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-popup-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Modal Footer Actions Bar */
+.welcome-popup-footer {
+  padding: 12px 18px;
+  background: #ffffff;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  z-index: 5;
+}
+
+.welcome-popup-btn-donate {
+  background: linear-gradient(135deg, #13a34a 0%, #0f853c 100%);
+  color: #ffffff;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(19, 163, 74, 0.25);
+  transition: all 0.25s ease;
+  flex: 1;
+  justify-content: center;
+}
+
+.welcome-popup-btn-donate:hover {
+  background: linear-gradient(135deg, #0f853c 0%, #0a662e 100%);
+  box-shadow: 0 6px 16px rgba(19, 163, 74, 0.4);
+  transform: translateY(-1px);
+}
+
+.welcome-popup-btn-pdf {
+  background: #f0f7ff;
+  color: #1b5182;
+  border: 1px solid #bfdbfe;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 9px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.25s ease;
+}
+
+.welcome-popup-btn-pdf:hover {
+  background: #1b5182;
+  color: #ffffff;
+  border-color: #1b5182;
+}
+
+.welcome-popup-btn-dismiss {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 10px;
+  transition: color 0.2s ease;
+}
+
+.welcome-popup-btn-dismiss:hover {
+  color: #0f172a;
+  text-decoration: underline;
+}
+
+/* Floating Re-open Badge (Bottom Left) */
+.welcome-popup-floating-badge {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #1b5182;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  z-index: 999;
+  transition: all 0.25s ease;
+  opacity: 0.9;
+}
+
+.welcome-popup-floating-badge:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(27, 81, 130, 0.2);
+  border-color: #1b5182;
+  background: #f0f7ff;
+}
+
+.welcome-popup-floating-badge i {
+  color: #13a34a;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .welcome-popup-backdrop {
+    padding: 10px;
+  }
+  .welcome-popup-dialog {
+    max-width: 95vw;
+    border-radius: 12px;
+  }
+  .welcome-popup-footer {
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    gap: 8px;
+  }
+  .welcome-popup-btn-donate {
+    font-size: 12.5px;
+    padding: 9px 14px;
+  }
+  .welcome-popup-btn-pdf {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+  .welcome-popup-close-btn {
+    top: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+  .welcome-popup-floating-badge {
+    bottom: 16px;
+    left: 16px;
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+}
