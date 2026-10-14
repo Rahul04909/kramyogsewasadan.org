@@ -93,6 +93,20 @@ function getDB(): PDO
                 PDO::ATTR_EMULATE_PREPARES   => false,
             ]);
         } catch (PDOException $e) {
+            // If connection failed with 'localhost' socket on Linux, try TCP fallback via 127.0.0.1
+            if (DB_HOST === 'localhost') {
+                try {
+                    $fallbackDsn = sprintf('mysql:host=127.0.0.1;port=%s;dbname=%s;charset=utf8mb4', DB_PORT, DB_NAME);
+                    $pdo = new PDO($fallbackDsn, DB_USER, DB_PASS, [
+                        PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+                        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                        PDO::ATTR_EMULATE_PREPARES   => false,
+                    ]);
+                    return $pdo;
+                } catch (PDOException $fallbackEx) {
+                    // Fallback also failed, proceed with original error handling
+                }
+            }
             if (APP_DEBUG) {
                 throw $e;
             }

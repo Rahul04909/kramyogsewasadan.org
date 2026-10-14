@@ -52,11 +52,17 @@
         <h2>Key Details for Claims</h2>
         <div style="background: #f0f7ff; border-left: 4px solid #1b5182; padding: 20px; border-radius: 4px; margin-bottom: 25px;">
           <table style="width: 100%; font-size: 0.95rem; border-collapse: collapse;">
-            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182; width: 160px;">Organization</td><td style="padding: 10px 0; color: #2d3748;">Kram Yog Seva Sadan Trust</td></tr>
-            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Charity Reg ID / PAN</td><td style="padding: 10px 0; color: #2d3748; font-family: monospace; font-weight: 600;">AAATT6468P</td></tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182; width: 160px;">Organization</td><td style="padding: 10px 0; color: #2d3748;">Kram Yog Sewa Sadan Trust</td></tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Trust Reg No.</td><td style="padding: 10px 0; color: #2d3748; font-family: monospace; font-weight: 600;">10394 (Dated 31-12-2025)</td></tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Charity PAN</td><td style="padding: 10px 0; color: #2d3748; font-family: monospace; font-weight: 600;">AAGTK3826Q</td></tr>
             <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Exemption Benefit</td><td style="padding: 10px 0; color: #2d3748;">50% Tax Deduction under Sec 80G</td></tr>
             <tr><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Eligible Taxpayers</td><td style="padding: 10px 0; color: #2d3748;">All Indian Citizens / Taxpayers</td></tr>
           </table>
+        </div>
+        <div style="margin-top: 15px;">
+          <a href="certifications.php#cert-80g" style="display: inline-flex; align-items: center; gap: 8px; background: #1b5182; color: #ffffff; padding: 10px 20px; border-radius: 6px; font-size: 13.5px; font-weight: 700; text-decoration: none;">
+            <i class="fa-solid fa-file-pdf"></i> View & Download Official 80G Certificate <i class="fa-solid fa-arrow-right"></i>
+          </a>
         </div>
       </section>
 
@@ -92,6 +98,7 @@
         <h3>Who We Are</h3>
         <ul class="sidebar-links-list">
           <li><a href="about-us.php"><i class="fa-solid fa-angle-right"></i> About Us</a></li>
+          <li><a href="certifications.php"><i class="fa-solid fa-angle-right"></i> Legal Certifications</a></li>
           <li><a href="vision-mission.php"><i class="fa-solid fa-angle-right"></i> Vision & Mission</a></li>
           <li><a href="inspiration.php"><i class="fa-solid fa-angle-right"></i> Story of Hope</a></li>
           <li><a href="board-trustees.php"><i class="fa-solid fa-angle-right"></i> Board of Trustees</a></li>

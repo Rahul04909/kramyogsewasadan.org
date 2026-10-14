@@ -78,7 +78,7 @@ try {
     // 4. Check if admin already exists
     $stmt = $pdo->prepare("SELECT COUNT(*) FROM `admins` WHERE `username` = :username OR `email` = :email");
     $stmt->execute([
-        ':username' => 'tgrf_admin',
+        ':username' => 'kramyog_admin',
         ':email'    => 'info@kramyogsewasadan.org'
     ]);
     $exists = (int)$stmt->fetchColumn() > 0;
@@ -86,7 +86,7 @@ try {
     $seed_status = "";
     if (!$exists) {
         // Insert default admin
-        $defaultPassword = 'Admin@TGRF2026!';
+        $defaultPassword = 'Admin@KYSS2026!';
         $hashedPassword  = password_hash($defaultPassword, PASSWORD_BCRYPT, ['cost' => 12]);
 
         $insertStmt = $pdo->prepare("
@@ -97,8 +97,8 @@ try {
         $insertStmt->execute([
             ':name'          => 'Kram Yog Sewa Sadan',
             ':email'         => 'info@kramyogsewasadan.org',
-            ':username'      => 'tgrf_admin',
-            ':mobile'        => '9876543210',
+            ':username'      => 'kramyog_admin',
+            ':mobile'        => '9671413639',
             ':profile_image' => '', // Empty means using standard avatar fallback
             ':password'      => $hashedPassword
         ]);
@@ -106,8 +106,8 @@ try {
         $seed_status = "SUCCESS: Seeded default admin user:\n"
                      . "  - Name: Kram Yog Sewa Sadan\n"
                      . "  - Email: info@kramyogsewasadan.org\n"
-                     . "  - Username: tgrf_admin\n"
-                     . "  - Password: Admin@TGRF2026!\n"
+                     . "  - Username: kramyog_admin\n"
+                     . "  - Password: Admin@KYSS2026!\n"
                      . "(Remember to update credentials immediately in the admin profile settings page.)\n";
     } else {
         $seed_status = "NOTICE: Default admin already exists. Seeding skipped to prevent overwriting existing admin accounts.\n";
@@ -115,7 +115,7 @@ try {
 
     // Success response styling
     if ($is_cli) {
-        echo "=== TGRF Admin Seeder ===\n";
+        echo "=== Kram Yog Sewa Sadan Admin Seeder ===\n";
         echo $db_status;
         echo $table_status;
         echo $seed_status;

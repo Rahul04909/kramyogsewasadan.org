@@ -47,6 +47,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
       <h3>About Us</h3>
       <ul class="footer-links-list">
         <li><a href="<?php echo $footer_base_url; ?>pages/about-us.php" class="footer-link">About Us</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/certifications.php" class="footer-link">Certifications & Legal</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/vision-mission.php" class="footer-link">Our Vision and Mission</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/inspiration.php" class="footer-link">Inspiration - The Story of Hope</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/board-trustees.php" class="footer-link">Board of Trustees</a></li>
@@ -94,7 +95,14 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
 
     <!-- Column 5: Certifications -->
     <div class="footer-certifications">
-      <img src="<?php echo $footer_base_url; ?>assets/GPTW_Logo.png" alt="Great Place to Work Certified" class="gptw-logo-img" loading="lazy">
+      <a href="<?php echo $footer_base_url; ?>pages/certifications.php">
+        <img src="<?php echo $footer_base_url; ?>assets/GPTW_Logo.png" alt="Great Place to Work Certified" class="gptw-logo-img" loading="lazy">
+      </a>
+      <div style="margin-top: 12px; text-align: center;">
+        <a href="<?php echo $footer_base_url; ?>pages/certifications.php" class="footer-link" style="font-weight: 700; color: #1b5182; font-size: 13px; display: inline-flex; align-items: center; gap: 5px;">
+          <i class="fa-solid fa-award"></i> View All Certifications <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
     </div>
 
   </div>
@@ -102,7 +110,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
   <!-- Copyright and Charity Info Bar -->
   <div class="footer-info-bar">
     <div class="header-container">
-      <span>Charity Id : xxxxxxxx</span>
+      <span>Trust Reg No : 10394 | PAN : AAGTK3826Q</span>
       <span>Kram Yog Sewa Sadan &copy; 2026 | A Website Designed By <a href="#" target="_blank" style="color: #666666; text-decoration: none; font-weight: 600;" onmouseover="this.style.color='#1b5182'" onmouseout="this.style.color='#666666'">Rahul Dhiman | +91 80599 82049</a></span>
     </div>
   </div>

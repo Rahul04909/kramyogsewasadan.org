@@ -31,6 +31,7 @@ $static_pages = [
     '/volunteer.php',
     '/donate.php',
     '/pages/about-us.php',
+    '/pages/certifications.php',
     '/pages/vision-mission.php',
     '/pages/inspiration.php',
     '/pages/board-trustees.php',

@@ -38,6 +38,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
       <ul class="nav-menu">
         <li><a href="<?php echo $base_url; ?>pages/about-us.php" class="nav-link">Who We Are</a></li>
         <li><a href="<?php echo $base_url; ?>pages/what-we-do.php" class="nav-link">What We Do</a></li>
+        <li><a href="<?php echo $base_url; ?>pages/certifications.php" class="nav-link">Certificates</a></li>
         <li><a href="<?php echo $base_url; ?>pages/news-stories.php" class="nav-link">News & Stories</a></li>
         <li><a href="<?php echo $base_url; ?>pages/how-to-help.php" class="nav-link">How To Help</a></li>
         <li><a href="<?php echo $base_url; ?>volunteer.php" class="nav-link">Get Involved</a></li>
@@ -65,8 +66,8 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
   <div class="mobile-drawer" id="mobileDrawer">
     <div class="mobile-drawer-header">
       <!-- Mobile Drawer Logo -->
-      <a href="<?php echo $base_url; ?>index.php" class="logo-link" aria-label="Kram Yog Seva Sadan Home">
-        <img src="<?php echo $base_url; ?>assets/logo.png" alt="Kram Yog Seva Sadan Logo" class="logo-img mobile-logo-img">
+      <a href="<?php echo $base_url; ?>index.php" class="logo-link" aria-label="Kram Yog Sewa Sadan Home">
+        <img src="<?php echo $base_url; ?>assets/logo.png" alt="Kram Yog Sewa Sadan Logo" class="logo-img mobile-logo-img">
       </a>
       <button class="drawer-close-btn" id="closeDrawerBtn" aria-label="Close Menu">
         <i class="fa-solid fa-xmark"></i>
@@ -77,6 +78,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
     <ul class="mobile-nav-links">
       <li><a href="<?php echo $base_url; ?>pages/about-us.php" class="mobile-nav-link">Who We Are</a></li>
       <li><a href="<?php echo $base_url; ?>pages/what-we-do.php" class="mobile-nav-link">What We Do</a></li>
+      <li><a href="<?php echo $base_url; ?>pages/certifications.php" class="mobile-nav-link">Certificates</a></li>
       <li><a href="<?php echo $base_url; ?>pages/news-stories.php" class="mobile-nav-link">News & Stories</a></li>
       <li><a href="<?php echo $base_url; ?>pages/how-to-help.php" class="mobile-nav-link">How To Help</a></li>
       <li><a href="<?php echo $base_url; ?>volunteer.php" class="mobile-nav-link">Get Involved</a></li>
