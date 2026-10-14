@@ -40,8 +40,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
         <li><a href="<?php echo $base_url; ?>pages/what-we-do.php" class="nav-link">What We Do</a></li>
         <li><a href="<?php echo $base_url; ?>pages/certifications.php" class="nav-link">Certificates</a></li>
         <li><a href="<?php echo $base_url; ?>pages/news-stories.php" class="nav-link">News & Stories</a></li>
-        <li><a href="<?php echo $base_url; ?>pages/how-to-help.php" class="nav-link">How To Help</a></li>
-        <li><a href="<?php echo $base_url; ?>volunteer.php" class="nav-link">Get Involved</a></li>
+        <!-- <li><a href="<?php echo $base_url; ?>volunteer.php" class="nav-link">Get Involved</a></li> -->
         <li><a href="<?php echo $base_url; ?>pages/impact-reports.php" class="nav-link">Impact Reports</a></li>
         <li><a href="<?php echo $base_url; ?>pages/blogs.php" class="nav-link">Blogs</a></li>
       </ul>
