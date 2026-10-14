@@ -3,7 +3,7 @@
  * sql/update-tables.php
  * ============================================================
  * Database Migrator / Volunteer System Seeding Script
- * The Global Rise Foundation
+ * Kram Yog Sewa Sadan
  *
  * Usage: Run via CLI (php sql/update-tables.php) or access via browser.
  * ============================================================
@@ -24,7 +24,7 @@ if (!$is_cli) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Database Updates - The Global Rise Foundation</title>
+        <title>Database Updates - Kram Yog Sewa Sadan</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
         <style>
             body { font-family: "Montserrat", sans-serif; background: #f4f6f9; color: #333; padding: 40px 20px; margin: 0; }
@@ -96,7 +96,7 @@ try {
                 'price'          => 15000.00,
                 'duration_value' => 1,
                 'duration_unit'  => 'lifetime',
-                'description'    => 'Become a lifetime support pillar for The Global Rise Foundation.',
+                'description'    => 'Become a lifetime support pillar for Kram Yog Sewa Sadan.',
                 'status'         => 'active'
             ],
             [

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://globalrisefoundation.com/sitemap.xml
+Sitemap: https://kramyogsewasadan.org/sitemap.xml

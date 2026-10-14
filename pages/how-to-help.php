@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How to Help | The Global Rise Foundation</title>
-  <meta name="description" content="Find out how you can support The Global Rise Foundation. Learn about online donations, corporate CSR sponsorships, bank transfers, and volunteering.">
+  <title>How to Help | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Find out how you can support Kram Yog Sewa Sadan. Learn about online donations, corporate CSR sponsorships, bank transfers, and volunteering.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -143,25 +143,25 @@
         <!-- 2. Direct Bank Transfers -->
         <div class="help-method-card">
           <h3><i class="fa-solid fa-building-columns"></i> Bank & Wire Transfers</h3>
-          <p>For large contributions, institutional transfers, or recurring wire deposits, you can directly transfer funds into our verified organizational bank accounts. After performing a transfer, please mail your transaction details and PAN to <strong>theglobalrisefoundation@gmail.com</strong> to claim your tax receipt.</p>
+          <p>For large contributions, institutional transfers, or recurring wire deposits, you can directly transfer funds into our verified organizational bank accounts. After performing a transfer, please mail your transaction details and PAN to <strong>info@kramyogsewasadan.org</strong> to claim your tax receipt.</p>
           
           <table class="bank-details-table">
             <tbody>
               <tr>
                 <td class="label-td">Account Name</td>
-                <td class="value-td">The Global Rise Foundation Trust</td>
+                <td class="value-td">Kram Yog Seva Sadan Trust</td>
               </tr>
               <tr>
                 <td class="label-td">Bank Name</td>
-                <td class="value-td">Axis Bank Of India</td>
+                <td class="value-td">HDFC Bank</td>
               </tr>
               <tr>
                 <td class="label-td">Account Number</td>
-                <td class="value-td">926020024782390</td>
+                <td class="value-td">50200070560644</td>
               </tr>
               <tr>
                 <td class="label-td">IFSC Code</td>
-                <td class="value-td">UTIB0000348</td>
+                <td class="value-td">HDFC0006788</td>
               </tr>
               <tr>
                 <td class="label-td">Branch Name</td>
@@ -179,7 +179,7 @@
         <div class="help-method-card">
           <h3><i class="fa-solid fa-handshake"></i> Corporate CSR Projects</h3>
           <p>We work closely with corporate entities to run high-impact development initiatives. Businesses can align with our work by adopting central kitchens, sponsoring digital learning labs in rural districts, or sponsoring women's sewing machines batch-wise. All collaborations are fully compliant under CSR guidelines (Form CSR-1 registered).</p>
-          <a href="mailto:theglobalrisefoundation@gmail.com" class="help-action-btn">Contact CSR Team</a>
+          <a href="mailto:info@kramyogsewasadan.org" class="help-action-btn">Contact CSR Team</a>
         </div>
 
         <!-- 4. Volunteer with Us -->
@@ -200,7 +200,7 @@
       <section class="sidebar-cta-card">
         <h3>Need Assistance?</h3>
         <p>If you face any issues while completing a transaction or need customization in your donation setup, contact our support team.</p>
-        <a href="tel:+917292007777" class="sidebar-cta-button" style="background-color: #1b5182; box-shadow: 0 4px 8px rgba(27, 81, 130, 0.2);"><i class="fa-solid fa-phone"></i> Call Support</a>
+        <a href="tel:+919671413639" class="sidebar-cta-button" style="background-color: #1b5182; box-shadow: 0 4px 8px rgba(27, 81, 130, 0.2);"><i class="fa-solid fa-phone"></i> Call Support</a>
       </section>
 
       <!-- Sidebar Navigation Menu -->

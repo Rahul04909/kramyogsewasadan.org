@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impact Reports & Audits | The Global Rise Foundation</title>
-  <meta name="description" content="View the audited reports, compliance details, and measurable social impact of The Global Rise Foundation. Learn how we utilize your support for communities.">
+  <title>Impact Reports & Audits | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="View the audited reports, compliance details, and measurable social impact of Kram Yog Sewa Sadan. Learn how we utilize your support for communities.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -191,7 +191,7 @@
       
       <section class="initiative-content-block">
         <h2>Absolute Financial and Operational Transparency</h2>
-        <p>At The Global Rise Foundation, we hold ourselves accountable to our donors, institutional partners, and the communities we serve. We believe transparency builds trust, and trust enables growth. Every rupee received is traced, cataloged, and allocated with optimal operational efficiency. Below are the key metric outcomes of our projects, along with access to verified audit compliance dossiers.</p>
+        <p>At Kram Yog Sewa Sadan, we hold ourselves accountable to our donors, institutional partners, and the communities we serve. We believe transparency builds trust, and trust enables growth. Every rupee received is traced, cataloged, and allocated with optimal operational efficiency. Below are the key metric outcomes of our projects, along with access to verified audit compliance dossiers.</p>
       </section>
 
       <!-- Key Impact Numbers Dashboard Grid -->
@@ -290,7 +290,7 @@
       <!-- Compliance Registrations info -->
       <section class="initiative-content-block">
         <h2>Trust Registrations & Compliance</h2>
-        <p>The Global Rise Foundation Trust operates in complete alignment with regulatory guidelines of the Ministry of Corporate Affairs and the Income Tax Department.</p>
+        <p>Kram Yog Seva Sadan Trust operates in complete alignment with regulatory guidelines of the Ministry of Corporate Affairs and the Income Tax Department.</p>
         
         <div class="compliance-grid">
           

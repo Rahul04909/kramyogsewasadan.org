@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Board of Trustees | The Global Rise Foundation</title>
-  <meta name="description" content="Meet the members of the Board of Trustees guiding the operations and vision of The Global Rise Foundation.">
+  <title>Board of Trustees | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Meet the members of the Board of Trustees guiding the operations and vision of Kram Yog Sewa Sadan.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -45,7 +45,7 @@
 
       <section class="initiative-content-block">
         <h2>Our Governance</h2>
-        <p>The Global Rise Foundation is governed by an independent Board of Trustees. The Board brings together professionals from diverse backgrounds—including social work, healthcare, enterprise management, and academic research—to guide our strategic objectives, review databases, monitor operational integrity, and ensure absolute transparency across all project financials.</p>
+        <p>Kram Yog Sewa Sadan is governed by an independent Board of Trustees. The Board brings together dedicated individuals from diverse backgrounds—including social work, healthcare, enterprise management, and community welfare—to guide our strategic objectives, review operations, monitor integrity, and ensure absolute transparency across all project financials.</p>
       </section>
 
       <section class="initiative-content-block">
@@ -101,7 +101,7 @@
       <section class="sidebar-cta-card">
         <h3>Connect With Governance</h3>
         <p>Do you have questions regarding our governance structure or audit records? Feel free to contact our administrative office.</p>
-        <a href="mailto:theglobalrisefoundation@gmail.com" class="sidebar-cta-button" style="text-align: center;"><i class="fas fa-envelope mr-1"></i> Email Trustees</a>
+        <a href="mailto:info@kramyogsewasadan.org" class="sidebar-cta-button" style="text-align: center;"><i class="fas fa-envelope mr-1"></i> Email Trustees</a>
       </section>
 
       <!-- Sidebar Navigation Menu -->

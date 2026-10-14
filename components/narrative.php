@@ -2,10 +2,10 @@
 // Calculate relative base url path dynamically to support inclusion in nested directories
 $narrative_base_url = '';
 $request_uri = $_SERVER['REQUEST_URI'];
-$project_name = 'gloabl-rise';
-$pos = strpos($request_uri, $project_name);
-if ($pos !== false) {
-    $narrative_base_url = substr($request_uri, 0, $pos + strlen($project_name)) . '/';
+if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
+    $narrative_base_url = substr($request_uri, 0, strpos($request_uri, 'kramyogsewasadan.org') + strlen('kramyogsewasadan.org')) . '/';
+} elseif (strpos($request_uri, 'gloabl-rise') !== false) {
+    $narrative_base_url = substr($request_uri, 0, strpos($request_uri, 'gloabl-rise') + strlen('gloabl-rise')) . '/';
 } else {
     $narrative_base_url = '/';
 }
@@ -15,7 +15,7 @@ if ($pos !== false) {
   <div class="header-container">
     
     <!-- Title Section -->
-    <h2 class="narrative-title">The Global Rise Foundation <span class="title-narrative-highlight">Narrative</span></h2>
+    <h2 class="narrative-title">Kram Yog Sewa Sadan <span class="title-narrative-highlight">Narrative</span></h2>
     <div class="narrative-badge">Primary cause</div>
 
     <!-- Narrative Infographic Grid -->

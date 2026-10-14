@@ -1,7 +1,7 @@
 <?php
 /**
  * Latest Updates / Blog Slider Component
- * The Global Rise Foundation
+ * Kram Yog Sewa Sadan
  *
  * Displays recent foundation news, achievements & field updates
  * in a responsive 3-card sliding carousel.
@@ -30,7 +30,7 @@ foreach ($db_blogs as $blog) {
 <!-- =====================================================
      LATEST UPDATES — BLOG SLIDER SECTION
      ===================================================== -->
-<section class="latest-updates-section" aria-label="Latest Updates from The Global Rise Foundation">
+<section class="latest-updates-section" aria-label="Latest Updates from Kram Yog Sewa Sadan">
   <div class="header-container">
 
     <!-- Section Heading -->

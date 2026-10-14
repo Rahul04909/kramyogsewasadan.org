@@ -206,11 +206,11 @@ try {
     $mail = buildMailer();
     $mail->addAddress($raw['email'], $raw['full_name']);
     $mail->isHTML(true);
-    $mail->Subject = 'Welcome to The Global Rise Foundation Volunteer Team!';
+    $mail->Subject = 'Welcome to ' . APP_NAME . ' Volunteer Team!';
     $mail->Body = '
     <div style="font-family:Montserrat,Arial,sans-serif;max-width:580px;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
       <div style="background:linear-gradient(135deg,#1b5182,#113252);padding:35px 30px;text-align:center;">
-        <h1 style="color:#ffffff;font-size:22px;margin:0;">The Global Rise Foundation</h1>
+        <h1 style="color:#ffffff;font-size:22px;margin:0;">' . APP_NAME . '</h1>
         <p style="color:rgba(255,255,255,0.85);font-size:14px;margin:8px 0 0;">Volunteer Support Membership Confirmed</p>
       </div>
       <div style="padding:35px 30px;">
@@ -232,7 +232,7 @@ try {
         <p style="color:#a0aec0;font-size:12px;margin:0;">© ' . date('Y') . ' ' . APP_NAME . ' | All Rights Reserved</p>
       </div>
     </div>';
-    $mail->AltBody = "Dear {$raw['full_name']},\n\nThank you for volunteering with TGRF!\nReference: #VOL-" . str_pad($volunteerId, 5, '0', STR_PAD_LEFT) . "\nPlan: {$plan['title']}\nAmount: ₹{$amount_paid}\nWe will contact you shortly.";
+    $mail->AltBody = "Dear {$raw['full_name']},\n\nThank you for volunteering with " . APP_NAME . "!\nReference: #VOL-" . str_pad($volunteerId, 5, '0', STR_PAD_LEFT) . "\nPlan: {$plan['title']}\nAmount: ₹{$amount_paid}\nWe will contact you shortly.";
     $mail->send();
 } catch (MailerException $e) {
     error_log('[TGRF Volunteer Mailer] Applicant email failed: ' . $e->getMessage());

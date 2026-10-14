@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Empowering Persons with Disabilities | The Global Rise Foundation</title>
-  <meta name="description" content="Discover how The Global Rise Foundation empowers differently-abled individuals in India with mobility aids, digital skills, and vocational job coaching.">
+  <title>Empowering Persons with Disabilities | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover how Kram Yog Sewa Sadan empowers differently-abled individuals in India with mobility aids, digital skills, and vocational job coaching.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -47,12 +47,12 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/disabled_persons.png" alt="A person in a wheelchair receiving mobility aid support from The Global Rise Foundation volunteers" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/disabled_persons.png" alt="A person in a wheelchair receiving mobility aid support from Kram Yog Sewa Sadan volunteers" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>Inclusion and accessibility are essential for human dignity. Differently-abled individuals face significant hurdles in education, social inclusion, and livelihood access. In rural and low-income urban parts of India, lack of customized assistive devices and skills coaching keeps many disabled persons dependent on their families. The Global Rise Foundation's Persons with Disabilities initiatives are built on the core values of empowerment, mobility, and self-reliance.</p>
+        <p>Inclusion and accessibility are essential for human dignity. Differently-abled individuals face significant hurdles in education, social inclusion, and livelihood access. In rural and low-income urban parts of India, lack of customized assistive devices and skills coaching keeps many disabled persons dependent on their families. Kram Yog Sewa Sadan's Persons with Disabilities initiatives are built on the core values of empowerment, mobility, and self-reliance.</p>
         <p>Our projects take a holistic approach—focusing first on physical mobility, followed by digital skills training and inclusive education to support equal career paths.</p>
       </section>
 
@@ -72,7 +72,7 @@
 
       <section class="initiative-content-block">
         <h2>Our Impact</h2>
-        <p>Through our efforts, TGRF has distributed over 1,500 wheelchairs and mobility kits, opening new opportunities for physically disabled individuals. Additionally, our digital skills courses have graduated over 200 differently-abled youths, helping them secure corporate back-office roles and visual design positions that support financial independence.</p>
+        <p>Through our efforts, Kram Yog Sewa Sadan has distributed over 1,500 wheelchairs and mobility kits, opening new opportunities for physically disabled individuals. Additionally, our digital skills courses have graduated over 200 differently-abled youths, helping them secure corporate back-office roles and visual design positions that support financial independence.</p>
       </section>
 
     </article>

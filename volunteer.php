@@ -29,15 +29,15 @@ try {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO -->
-  <title>Join as a Volunteer | The Global Rise Foundation</title>
-  <meta name="description" content="Join The Global Rise Foundation as a volunteer and make a real difference. Apply online to contribute to Animal Welfare, Education, Healthcare, Disaster Relief, Women Empowerment and more across India.">
-  <meta name="keywords" content="volunteer India, NGO volunteer, join volunteer, social work, The Global Rise Foundation, community service">
+  <title>Join as a Volunteer | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Join Kram Yog Sewa Sadan as a volunteer and make a real difference. Apply online to contribute to Senior Citizen Care, Persons with Disabilities, Education, and Community Welfare across India.">
+  <meta name="keywords" content="volunteer India, NGO volunteer, join volunteer, social work, Kram Yog Sewa Sadan, community service">
   <meta name="robots" content="index, follow">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Join as a Volunteer — The Global Rise Foundation">
-  <meta property="og:description" content="Be the change. Apply to volunteer with TGRF and help empower communities across India.">
+  <meta property="og:title" content="Join as a Volunteer — Kram Yog Sewa Sadan">
+  <meta property="og:description" content="Be the change. Apply to volunteer with Kram Yog Sewa Sadan and help empower communities across India.">
   <meta property="og:url" content="<?php echo htmlspecialchars((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']); ?>">
 
   <!-- FontAwesome -->
@@ -543,9 +543,9 @@ try {
                       name="agree_terms" value="1" required>
                     <label class="vol-terms-text" for="agree_terms">
                       I have read and agree to the
-                      <a href="#" target="_blank">Volunteer Terms &amp; Conditions</a>
-                      and the <a href="#" target="_blank">Code of Conduct</a> of
-                      The Global Rise Foundation. I understand that my application is
+                      <a href="pages/terms-conditions.php" target="_blank">Volunteer Terms &amp; Conditions</a>
+                      and the <a href="pages/terms-conditions.php" target="_blank">Code of Conduct</a> of
+                      Kram Yog Sewa Sadan. I understand that my application is
                       subject to review and approval.
                     </label>
                   </div>
@@ -581,7 +581,7 @@ try {
           <div class="vol-success-panel" id="volSuccessPanel" aria-live="polite">
             <div class="vol-success-icon"><i class="fa-solid fa-check"></i></div>
             <h2>Application Submitted!</h2>
-            <p>Thank you for joining The Global Rise Foundation volunteer team.</p>
+            <p>Thank you for joining Kram Yog Sewa Sadan volunteer team.</p>
             <p>A confirmation email and transaction details have been sent to your inbox.</p>
             <div class="vol-ref-badge" id="volRefBadge">Reference: Loading…</div>
             <p style="margin-top:10px;">Our Volunteer Coordination team will contact you within 3–5 business days.</p>
@@ -848,7 +848,7 @@ try {
           "key": orderData.key_id,
           "amount": orderData.amount,
           "currency": "INR",
-          "name": "The Global Rise Foundation",
+          "name": "Kram Yog Sewa Sadan",
           "description": "Volunteer Support - " + orderData.plan_title,
           "image": "assets/logo.png",
           "order_id": orderData.order_id,

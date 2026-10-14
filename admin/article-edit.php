@@ -386,17 +386,17 @@ function updateSchema() {
         "dateModified": new Date().toISOString(),
         "author": {
             "@type": type === 'blog' ? "Person" : "Organization",
-            "name": type === 'blog' ? "TGRF Author" : "The Global Rise Foundation"
+            "name": type === 'blog' ? "Kram Yog Sewa Sadan Author" : "Kram Yog Sewa Sadan"
         },
         "publisher": {
             "@type": "Organization",
-            "name": "The Global Rise Foundation",
+            "name": "Kram Yog Sewa Sadan",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://globalrisefoundation.org/assets/logo.png"
+                "url": "https://kramyogsewasadan.org/assets/logo.png"
             }
         },
-        "description": "Read this article on The Global Rise Foundation portal."
+        "description": "Read this article on Kram Yog Sewa Sadan portal."
     };
     
     if (!schemaTextareaDirty) {

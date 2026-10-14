@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms and Conditions | The Global Rise Foundation</title>
-  <meta name="description" content="Review the Terms and Conditions, Privacy Policy, and Transaction Refund policies governing The Global Rise Foundation website.">
+  <title>Terms and Conditions | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Review the Terms and Conditions, Privacy Policy, and Transaction Refund policies governing the Kram Yog Sewa Sadan website.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -43,17 +43,17 @@
 
       <section class="initiative-content-block">
         <h2>1. Terms of Use</h2>
-        <p>By accessing and utilizing the website of The Global Rise Foundation, you agree to comply with and be bound by the following Terms and Conditions and our Privacy Policy. If you do not agree to these terms, please do not use this website.</p>
+        <p>By accessing and utilizing the website of Kram Yog Sewa Sadan, you agree to comply with and be bound by the following Terms and Conditions and our Privacy Policy. If you do not agree to these terms, please do not use this website.</p>
       </section>
 
       <section class="initiative-content-block">
         <h2>2. Donation Policies</h2>
-        <p>All contributions made through this website are processed securely. Indian citizens requesting tax exemption certificates must provide a valid PAN card number and billing address. The foundation reserves the right to decline contributions if there is a discrepancy in donor verification details or compliance parameters.</p>
+        <p>All contributions made through this website are processed securely. Indian citizens requesting tax exemption certificates must provide a valid PAN card number and billing address. Kram Yog Sewa Sadan reserves the right to decline contributions if there is a discrepancy in donor verification details or compliance parameters.</p>
       </section>
 
       <section class="initiative-content-block">
         <h2>3. Transaction Refund Policy</h2>
-        <p>Contributions made to The Global Rise Foundation are voluntary and generally non-refundable. However, if a donation has been processed erroneously (e.g., duplicate charges or incorrect amounts entered), a refund request can be made by writing to <a href="mailto:theglobalrisefoundation@gmail.com">theglobalrisefoundation@gmail.com</a> within 7 days of the transaction. All refunds are subject to operational review, and no refund will be issued if the 80G tax exemption receipt has already been generated.</p>
+        <p>Contributions made to Kram Yog Sewa Sadan are voluntary and generally non-refundable. However, if a donation has been processed erroneously (e.g., duplicate charges or incorrect amounts entered), a refund request can be made by writing to <a href="mailto:info@kramyogsewasadan.org">info@kramyogsewasadan.org</a> within 7 days of the transaction. All refunds are subject to operational review, and no refund will be issued if the 80G tax exemption receipt has already been generated.</p>
       </section>
 
       <section class="initiative-content-block">
@@ -69,7 +69,7 @@
       <!-- Donation Appeal Card -->
       <section class="sidebar-cta-card">
         <h3>Support Our Legal Compliance</h3>
-        <p>The Global Rise Foundation is fully audited and registered. We guarantee absolute compliance with all local laws and donation guidelines.</p>
+        <p>Kram Yog Sewa Sadan is fully audited and registered. We guarantee absolute compliance with all local laws and donation guidelines.</p>
         <a href="../donate.php" class="sidebar-cta-button">Online Donations</a>
       </section>
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Educating Slum Children Initiatives | The Global Rise Foundation</title>
-  <meta name="description" content="Discover how The Global Rise Foundation brings education to urban slum children in India through mobile learning bridge programs, tuition centers, and material aid.">
+  <title>Educating Slum Children Initiatives | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover how Kram Yog Sewa Sadan brings education to urban slum children in India through mobile learning bridge programs, tuition centers, and material aid.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -47,12 +47,12 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/slum_education.png" alt="Children in urban slums learning in a bridge classroom program supported by The Global Rise Foundation" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/slum_education.png" alt="Children in urban slums learning in a bridge classroom program supported by Kram Yog Sewa Sadan" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>Education is the most powerful tool to break the cycle of generational poverty. In major urban areas, children living in temporary slum settlements face massive obstacles in accessing formal schools—including financial constraints, family migrations, safety concerns, and lack of guidance. The Global Rise Foundation's Slum Children Education initiatives are designed to bridge these gaps by providing flexible, accessible, and high-quality learning systems right at their doorsteps.</p>
+        <p>Education is the most powerful tool to break the cycle of generational poverty. In major urban areas, children living in temporary slum settlements face massive obstacles in accessing formal schools—including financial constraints, family migrations, safety concerns, and lack of guidance. Kram Yog Sewa Sadan's Slum Children Education initiatives are designed to bridge these gaps by providing flexible, accessible, and high-quality learning systems right at their doorsteps.</p>
         <p>Through our localized educational frameworks, we seek to mainstream out-of-school children, reinforce basic literacy, and provide after-school support to help young students stay enrolled in formal classrooms.</p>
       </section>
 
@@ -67,7 +67,7 @@
       </section>
 
       <div class="initiative-quote-box">
-        <p>"No child should be denied the joy of learning simply because of their address. By setting up bridge classrooms inside urban slums, TGRF is ensuring that hope and literacy reach the most neglected streets."</p>
+        <p>"No child should be denied the joy of learning simply because of their address. By setting up bridge classrooms inside urban slums, Kram Yog Sewa Sadan is ensuring that hope and literacy reach the most neglected streets."</p>
       </div>
 
       <section class="initiative-content-block">

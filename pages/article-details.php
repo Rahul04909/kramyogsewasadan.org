@@ -38,7 +38,7 @@ $parentUrl = ($article['type'] === 'blog') ? 'blogs.php' : 'news-stories.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><?= htmlspecialchars($article['meta_title'] ?: $article['title'] . ' | The Global Rise Foundation') ?></title>
+  <title><?= htmlspecialchars($article['meta_title'] ?: $article['title'] . ' | Kram Yog Sewa Sadan') ?></title>
   
   <?php if (!empty($article['meta_description'])): ?>
   <meta name="description" content="<?= htmlspecialchars($article['meta_description']) ?>">
@@ -163,7 +163,7 @@ $parentUrl = ($article['type'] === 'blog') ? 'blogs.php' : 'news-stories.php';
       <div class="article-meta-info">
         <span><i class="fa-regular fa-calendar"></i> <?= date('d F, Y', strtotime($article['created_at'])) ?></span>
         <span><i class="fa-solid fa-folder-open"></i> <span class="badge-type <?= $article['type'] === 'blog' ? 'blog' : '' ?>"><?= $article['type'] === 'blog' ? 'Blog' : 'News & Stories' ?></span></span>
-        <span><i class="fa-regular fa-user"></i> The Global Rise Foundation</span>
+        <span><i class="fa-regular fa-user"></i> Kram Yog Sewa Sadan</span>
       </div>
 
       <!-- Header Image -->

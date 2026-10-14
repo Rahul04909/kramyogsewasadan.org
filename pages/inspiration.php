@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inspiration - The Story of Hope | The Global Rise Foundation</title>
-  <meta name="description" content="Read 'The Story of Hope', the narrative that inspired the founding of The Global Rise Foundation's mid-day meals initiative.">
+  <title>Inspiration - The Story of Hope | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Read 'The Story of Hope', the narrative that inspired the founding and humanitarian vision of Kram Yog Sewa Sadan.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -60,8 +60,8 @@
       </section>
 
       <section class="initiative-content-block">
-        <h2>The Global Rise Legacy</h2>
-        <p>Asha's story is not unique. It is the story of thousands of children in India waiting for an opportunity. The story of Hope is the driving inspiration behind The Global Rise Foundation. We believe that by eliminating hunger in schools, we can keep children in classrooms, break the cycle of poverty, and build a brighter, self-reliant future for our country.</p>
+        <h2>The Kram Yog Sewa Legacy</h2>
+        <p>Asha's story is not unique. It is the story of thousands of children in India waiting for an opportunity. The story of Hope is the driving inspiration behind Kram Yog Sewa Sadan. We believe that by eliminating hunger and extending compassionate support, we can keep children in classrooms, uplift vulnerable elders, break the cycle of poverty, and build a brighter, self-reliant future for our country.</p>
       </section>
 
     </article>

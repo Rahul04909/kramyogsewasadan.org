@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Portal - The Global Rise Foundation</title>
+    <title>Admin Portal - Kram Yog Sewa Sadan</title>
     <link rel="icon" href="favicon.png" type="image/png">
     
     <!-- CSS & Fonts -->
@@ -112,9 +112,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="login-container">
         <div class="login-header">
             <div class="logo-wrapper">
-                <img src="assets/logo.png" alt="TGRF Logo">
+                <img src="assets/logo.png" alt="Kram Yog Sewa Sadan Logo">
             </div>
-            <h1>The Global Rise Foundation</h1>
+            <h1>Kram Yog Sewa Sadan</h1>
             <p>Admin Portal Login</p>
         </div>
 

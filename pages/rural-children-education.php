@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rural Children Education Programs | The Global Rise Foundation</title>
-  <meta name="description" content="Discover how The Global Rise Foundation improves rural education in India with smart classrooms, solar power installations, scholarships, and school benches.">
+  <title>Rural Children Education Programs | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover how Kram Yog Sewa Sadan improves rural education in India with smart classrooms, solar power installations, scholarships, and school benches.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -47,12 +47,12 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/rural_education.png" alt="Children in a rural village school learning under the education program of The Global Rise Foundation" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/rural_education.png" alt="Children in a rural village school learning under the education program of Kram Yog Sewa Sadan" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>In rural India, millions of bright minds are constrained by underfunded school facilities, long commute distances, and lack of digital connectivity. Many government schools in remote villages struggle with basic infrastructure deficiencies like missing roofs, lack of desks, and unstable electrical grids. The Global Rise Foundation's Rural Children Education programs aim to modernize village schools, elevate teaching quality, and remove secondary expenses to encourage rural families to keep their children in school.</p>
+        <p>In rural India, millions of bright minds are constrained by underfunded school facilities, long commute distances, and lack of digital connectivity. Many government schools in remote villages struggle with basic infrastructure deficiencies like missing roofs, lack of desks, and unstable electrical grids. Kram Yog Sewa Sadan's Rural Children Education programs aim to modernize village schools, elevate teaching quality, and remove secondary expenses to encourage rural families to keep their children in school.</p>
         <p>By transforming rural schools into modern, eco-friendly, and digital learning environments, we empower village children to compete on equal terms with urban students.</p>
       </section>
 
@@ -67,7 +67,7 @@
       </section>
 
       <div class="initiative-quote-box">
-        <p>"Rural talent deserves urban-quality resources. By introducing solar energy, smart screens, and scholarships, TGRF is turning village classrooms into modern centers of excellence."</p>
+        <p>"Rural talent deserves urban-quality resources. By introducing solar energy, smart screens, and scholarships, Kram Yog Sewa Sadan is turning village classrooms into modern centers of excellence."</p>
       </div>
 
       <section class="initiative-content-block">

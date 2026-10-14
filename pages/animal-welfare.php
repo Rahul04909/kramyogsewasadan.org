@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animal Welfare & Rescue Services | The Global Rise Foundation</title>
-  <meta name="description" content="Learn how The Global Rise Foundation supports street animal rescue, veterinary medical camps, and stray feeding programs in India. Support our animal welfare initiatives today.">
+  <title>Animal Welfare & Rescue Services | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Learn how Kram Yog Sewa Sadan supports street animal rescue, veterinary medical camps, and stray feeding programs in India. Support our animal welfare initiatives today.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -52,7 +52,7 @@
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>At The Global Rise Foundation, we believe that a compassionate society cares for all living beings. In urban and rural areas across India, street animals—primarily strays—face extreme weather, lack of clean drinking water, vehicular accidents, and hunger. Our Animal Welfare initiatives focus on creating localized support systems to rescue, feed, treat, and protect stray animals, fostering harmonious co-existence in our communities.</p>
+        <p>At Kram Yog Sewa Sadan, we believe that a compassionate society cares for all living beings. In urban and rural areas across India, street animals—primarily strays—face extreme weather, lack of clean drinking water, vehicular accidents, and hunger. Our Animal Welfare initiatives focus on creating localized support systems to rescue, feed, treat, and protect stray animals, fostering harmonious co-existence in our communities.</p>
         <p>Through partnerships with local shelters, veterinary practitioners, and volunteer stray care networks, we work to build sustainable welfare infrastructure. From mobile veterinary ambulances to community water bowls, we bring aid directly to the animals that need it most.</p>
       </section>
 
@@ -67,7 +67,7 @@
       </section>
 
       <div class="initiative-quote-box">
-        <p>"The greatness of a nation and its moral progress can be judged by the way its animals are treated. Through veterinary camps and community feeder support, TGRF is striving to build a kinder world for our street animals."</p>
+        <p>"The greatness of a nation and its moral progress can be judged by the way its animals are treated. Through veterinary camps and community feeder support, Kram Yog Sewa Sadan is striving to build a kinder world for our street animals."</p>
       </div>
 
       <section class="initiative-content-block">

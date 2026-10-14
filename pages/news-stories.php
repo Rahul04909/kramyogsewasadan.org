@@ -11,8 +11,8 @@ $newsList = $stmt->fetchAll();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News & Stories | The Global Rise Foundation</title>
-  <meta name="description" content="Stay updated with the latest news, on-ground stories, and success stories of community transformation from The Global Rise Foundation.">
+  <title>News & Stories | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Stay updated with the latest news, on-ground stories, and success stories of community transformation from Kram Yog Sewa Sadan.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -181,7 +181,7 @@ $newsList = $stmt->fetchAll();
       
       <section class="initiative-content-block">
         <h2>Latest Updates & Ground Realities</h2>
-        <p>Explore the real stories behind our metrics. At The Global Rise Foundation, every project represents human lives transformed, children nourished, and communities empowered. Read our latest press bulletins, success stories of hope, and emergency campaign logs from our project locations across India.</p>
+        <p>Explore the real stories behind our metrics. At Kram Yog Sewa Sadan, every project represents human lives transformed, elders supported, children educated, and communities empowered. Read our latest press bulletins, success stories of hope, and emergency campaign logs from our project locations across India.</p>
       </section>
 
       <!-- News and Stories Grid -->

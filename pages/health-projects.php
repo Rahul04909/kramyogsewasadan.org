@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Healthcare & Medical Projects | The Global Rise Foundation</title>
-  <meta name="description" content="Discover how The Global Rise Foundation organizes free medical camps, primary health clinics, and medicine distribution programs in rural India.">
+  <title>Healthcare & Medical Projects | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover how Kram Yog Sewa Sadan organizes free medical camps, primary health clinics, and medicine distribution programs in rural India.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -52,7 +52,7 @@
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>A healthy community is a thriving community. However, in rural villages and urban slums across India, thousands of people suffer from preventable illnesses due to a lack of basic healthcare facilities, awareness, and affordable medical resources. The Global Rise Foundation's Health Projects are designed to bridge this gap by bringing essential primary healthcare directly to remote, marginalized, and underserved areas.</p>
+        <p>A healthy community is a thriving community. However, in rural villages and urban slums across India, thousands of people suffer from preventable illnesses due to a lack of basic healthcare facilities, awareness, and affordable medical resources. Kram Yog Sewa Sadan's Health Projects are designed to bridge this gap by bringing essential primary healthcare directly to remote, marginalized, and underserved areas.</p>
         <p>Through partnerships with professional doctors, government healthcare networks, and medical volunteers, we establish regular diagnostic clinics and checkup camps to identify, prevent, and treat core health concerns early.</p>
       </section>
 
@@ -67,7 +67,7 @@
       </section>
 
       <div class="initiative-quote-box">
-        <p>"Access to primary healthcare is a fundamental right. By bringing doctors and free medications directly to remote villages, TGRF is ensuring that geographical isolation doesn't prevent basic healing."</p>
+        <p>"Access to primary healthcare is a fundamental right. By bringing doctors and free medications directly to remote villages, Kram Yog Sewa Sadan is ensuring that geographical isolation doesn't prevent basic healing."</p>
       </div>
 
       <section class="initiative-content-block">

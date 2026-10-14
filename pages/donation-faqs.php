@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donation FAQs | The Global Rise Foundation</title>
-  <meta name="description" content="Find answers to common questions about contributing, online security, tax exemptions, and donation options at The Global Rise Foundation.">
+  <title>Donation FAQs | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Find answers to common questions about contributing, online security, tax exemptions, and donation options at Kram Yog Sewa Sadan.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -76,7 +76,7 @@
           <div class="faq-item">
             <div class="faq-question">4. Can I donate offline?</div>
             <div class="faq-answer">
-              Yes, we accept offline contributions via Cash, Cheques, or direct Bank Wire Transfers. Please write to us at <a href="mailto:theglobalrisefoundation@gmail.com">theglobalrisefoundation@gmail.com</a> or call us to obtain bank details and coordinate cash collection.
+              Yes, we accept offline contributions via Cash, Cheques, or direct Bank Wire Transfers. Please write to us at <a href="mailto:info@kramyogsewasadan.org">info@kramyogsewasadan.org</a> or call us to obtain bank details and coordinate cash collection.
             </div>
           </div>
 
@@ -90,7 +90,7 @@
           <div class="faq-item">
             <div class="faq-question">6. How is my donation utilized?</div>
             <div class="faq-answer">
-              The Global Rise Foundation operates on-ground directly. 92% of your contribution is directly spent on project delivery (purchasing grain, preparing mid-day meals, securing tailors and workshops). The remaining 8% supports necessary administrative audits, database management, and field coordinate overheads.
+              Kram Yog Sewa Sadan operates on-ground directly. 92% of your contribution is directly spent on project delivery (supporting senior citizens, disability aids, child education, and healthcare). The remaining 8% supports necessary administrative audits, database management, and field coordinate overheads.
             </div>
           </div>
 
@@ -106,7 +106,7 @@
       <section class="sidebar-cta-card">
         <h3>Have More Questions?</h3>
         <p>If you need further details or want to set up corporate sponsorship, please contact our support desk.</p>
-        <a href="mailto:theglobalrisefoundation@gmail.com" class="sidebar-cta-button" style="text-align: center;"><i class="fas fa-question-circle mr-1"></i> Ask a Question</a>
+        <a href="mailto:info@kramyogsewasadan.org" class="sidebar-cta-button" style="text-align: center;"><i class="fas fa-question-circle mr-1"></i> Ask a Question</a>
       </section>
 
       <!-- Sidebar Navigation Menu -->

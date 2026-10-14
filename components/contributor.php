@@ -2,10 +2,10 @@
 // Calculate relative base url path dynamically to support inclusion in nested directories
 $contrib_base_url = '';
 $request_uri = $_SERVER['REQUEST_URI'];
-$project_name = 'gloabl-rise';
-$pos = strpos($request_uri, $project_name);
-if ($pos !== false) {
-    $contrib_base_url = substr($request_uri, 0, $pos + strlen($project_name)) . '/';
+if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
+    $contrib_base_url = substr($request_uri, 0, strpos($request_uri, 'kramyogsewasadan.org') + strlen('kramyogsewasadan.org')) . '/';
+} elseif (strpos($request_uri, 'gloabl-rise') !== false) {
+    $contrib_base_url = substr($request_uri, 0, strpos($request_uri, 'gloabl-rise') + strlen('gloabl-rise')) . '/';
 } else {
     $contrib_base_url = '/';
 }
@@ -26,7 +26,7 @@ if ($pos !== false) {
             <img src="<?php echo $contrib_base_url; ?>assets/images/contributor1.png" alt="Mr. Urmelesh Swami" class="contrib-img" loading="lazy">
           </div>
           <div class="contrib-text-block">
-            <p class="contrib-quote">"Hunger is not a natural disaster but man-made one to a large extent. Hence, I feel, it is our duty to make India hunger-free. It was pleasant to know about the implementation of the Mid-Day Meal Programme by The Global Rise Foundation. The modus operandi and functioning of this programme deeply touched my heart as I, at Galway Foundation"</p>
+            <p class="contrib-quote">"Compassionate service to humanity is the highest calling. It was inspiring to know about the social welfare programmes driven by Kram Yog Sewa Sadan. The dedication and transparency of their initiatives deeply touched our hearts."</p>
             <div class="contrib-name">Mr.Urmelesh Swami</div>
             <div class="contrib-role">Head - Galway Foundation</div>
           </div>
@@ -38,7 +38,7 @@ if ($pos !== false) {
             <img src="<?php echo $contrib_base_url; ?>assets/images/contributor2.png" alt="Ms. Priyanjali Rao" class="contrib-img" loading="lazy">
           </div>
           <div class="contrib-text-block">
-            <p class="contrib-quote">"Nourishing children with hot, hygienic, and nutritious meals is the most direct way to build a healthier society. Partnering with The Global Rise Foundation has allowed us to witness firsthand the incredible transformation in classroom attendance and student health."</p>
+            <p class="contrib-quote">"Supporting senior citizens, differently-abled persons, and children is the most direct way to build a healthier society. Partnering with Kram Yog Sewa Sadan has allowed us to witness firsthand the incredible transformation across communities."</p>
             <div class="contrib-name">Ms. Priyanjali Rao</div>
             <div class="contrib-role">CSR Director - Tech Mahindra</div>
           </div>
@@ -50,7 +50,7 @@ if ($pos !== false) {
             <img src="<?php echo $contrib_base_url; ?>assets/images/contributor3.png" alt="Mr. Rajesh Khanna" class="contrib-img" loading="lazy">
           </div>
           <div class="contrib-text-block">
-            <p class="contrib-quote">"The scale and precision with which The Global Rise Foundation operates their centralized kitchens is a model for social impact globally. We are proud to support an initiative that feeds hope and fuels education for millions of children every day."</p>
+            <p class="contrib-quote">"The dedication and precision with which Kram Yog Sewa Sadan operates their grassroots programs is a model for social impact. We are proud to support an initiative that brings dignity, care, and hope to vulnerable people every day."</p>
             <div class="contrib-name">Mr. Rajesh Khanna</div>
             <div class="contrib-role">Executive Trustee - Hope India Fund</div>
           </div>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | The Global Rise Foundation</title>
-  <meta name="description" content="Learn about The Global Rise Foundation, our history, our team, and our commitment to helping communities across India since 2020.">
+  <title>About Us | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Learn about Kram Yog Sewa Sadan, our history, our dedicated team, and our commitment to serving senior citizens, persons with disabilities, and underserved communities across India.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -45,8 +45,8 @@
 
       <section class="initiative-content-block">
         <h2>Who We Are</h2>
-        <p>The Global Rise Foundation is a registered non-profit organization established in 2020 with a single, clear objective: to build a hunger-free and self-reliant society. Recognizing that nutrition is the foundational bedrock of all developmental achievements—including education, healthcare, and livelihood success—we began our operations by addressing classroom hunger in urban slums and rural settlements.</p>
-        <p>Over the years, we have expanded our scope. Today, we work across multiple crucial verticals including slum and rural child education, vocational training and micro-enterprise mentoring for women, geriatric senior care, disaster relief management, and veterinary animal welfare.</p>
+        <p>Kram Yog Sewa Sadan is a dedicated non-profit organization striving to make the world a better place for senior citizens, disabled individuals, children, and our environment. Recognizing that compassionate service, proper nutrition, and education are the foundational bedrocks of community development, we began our operations by actively addressing community needs across urban and rural settlements.</p>
+        <p>Over the years, we have expanded our scope. Today, we work across multiple crucial verticals including geriatric senior care, persons with disabilities empowerment, slum and rural child education, vocational training and micro-enterprise mentoring for women, disaster relief management, and veterinary animal welfare.</p>
       </section>
 
       <section class="initiative-content-block">

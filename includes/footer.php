@@ -2,10 +2,10 @@
 // Calculate relative base url path dynamically to support inclusion in nested directories
 $footer_base_url = '';
 $request_uri = $_SERVER['REQUEST_URI'];
-$project_name = 'kram-yog-seva-sadan.org';
-$pos = strpos($request_uri, $project_name);
-if ($pos !== false) {
-    $footer_base_url = substr($request_uri, 0, $pos + strlen($project_name)) . '/';
+if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
+    $footer_base_url = substr($request_uri, 0, strpos($request_uri, 'kramyogsewasadan.org') + strlen('kramyogsewasadan.org')) . '/';
+} elseif (strpos($request_uri, 'kram-yog-seva-sadan.org') !== false) {
+    $footer_base_url = substr($request_uri, 0, strpos($request_uri, 'kram-yog-seva-sadan.org') + strlen('kram-yog-seva-sadan.org')) . '/';
 } else {
     $footer_base_url = '/';
 }
@@ -16,14 +16,14 @@ if ($pos !== false) {
     
     <!-- Column 1: Branding, Tagline, Socials & QR Code -->
     <div class="footer-brand">
-      <img src="<?php echo $footer_base_url; ?>assets/logo.jpeg" alt="Kram Yog Seva Sadan Logo" class="footer-brand-logo">
+      <img src="<?php echo $footer_base_url; ?>assets/logo.png" alt="Kram Yog Seva Sadan Logo" class="footer-brand-logo">
       <p class="footer-tagline">Kram Yog Seva Sadan is a non profit organisation that strives to make the world a better place for senior citizens, disabled people, and for the environment</p>
       
       <!-- Social Media Icons -->
       <div class="footer-socials">
-        <a href="https://www.instagram.com/the_global_rise_foundation/" class="footer-social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://in.linkedin.com/in/the-global-rise-foundation-827a323b4" class="footer-social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://www.facebook.com/people/The-Global-Rise-Foundation/61586599273986/" class="footer-social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="footer-social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="footer-social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="footer-social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="#" class="footer-social-link" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
         <a href="#" class="footer-social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
       </div>
@@ -103,14 +103,14 @@ if ($pos !== false) {
   <div class="footer-info-bar">
     <div class="header-container">
       <span>Charity Id : xxxxxxxx</span>
-      <span>The Global Rise Foundation &copy; 2026 | A Website Designed By <a href="https://www.mineib.com" target="_blank" style="color: #666666; text-decoration: none; font-weight: 600;" onmouseover="this.style.color='#1b5182'" onmouseout="this.style.color='#666666'">Mineib Creative Technology</a></span>
+      <span>Kram Yog Sewa Sadan &copy; 2026 | A Website Designed By <a href="https://www.mineib.com" target="_blank" style="color: #666666; text-decoration: none; font-weight: 600;" onmouseover="this.style.color='#1b5182'" onmouseout="this.style.color='#666666'">Mineib Creative Technology</a></span>
     </div>
   </div>
 
   <!-- Silhouette Illustration strip (full-width bottom) -->
   <div class="footer-silhouette" style="background-image: url('<?php echo $footer_base_url; ?>assets/footer_bg.png');">
     <!-- Floating WhatsApp Contact Button -->
-    <a href="https://wa.me/917292007777" class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with The Global Rise Foundation on WhatsApp">
+    <a href="https://wa.me/917292007777" class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with Kram Yog Sewa Sadan on WhatsApp">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
   </div>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What We Do | The Global Rise Foundation</title>
-  <meta name="description" content="Discover the core social development focus areas of The Global Rise Foundation. Learn how we address education, health, animal welfare, and women empowerment.">
+  <title>What We Do | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover the core social development focus areas of Kram Yog Sewa Sadan. Learn how we support senior citizens, disabled individuals, child education, health, and women empowerment.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -134,7 +134,7 @@
       
       <section class="initiative-content-block">
         <h2>Our Core Areas of Intervention</h2>
-        <p>At The Global Rise Foundation, we are dedicated to resolving classroom hunger, ensuring access to quality education, and raising standards of living across underrepresented communities in India. We operate directly on the ground through a multi-sectoral development approach, recognizing that nutrition, education, health, and clean environments are deeply interconnected.</p>
+        <p>At Kram Yog Sewa Sadan, we are dedicated to providing compassionate care for senior citizens, empowering persons with disabilities, ensuring quality education for underserved children, and uplifting vulnerable communities. We operate directly on the ground through a multi-sectoral development approach, recognizing that social care, education, healthcare, and livelihood support are deeply interconnected.</p>
         <p>Explore our active campaigns and social initiatives below. Each initiative represents a major vertical where we create direct, verifiable impact using structured, transparent processes.</p>
       </section>
 

@@ -60,8 +60,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us | The Global Rise Foundation</title>
-  <meta name="description" content="Get in touch with The Global Rise Foundation. Reach us via phone, email, or visit our office in Faridabad. Submit your queries directly using our contact form.">
+  <title>Contact Us | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Get in touch with Kram Yog Sewa Sadan. Reach us via phone, email, or visit our office in Faridabad. Submit your queries directly using our contact form.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -302,6 +302,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
           <div class="contact-info-text">
             <h4>Call Us</h4>
+            <p><a href="tel:+919671413639">+91 9671413639</a></p>
             <p><a href="tel:+917292007777">+91 7292007777</a></p>
             <p><a href="tel:+919582470007">+91 9582470007</a></p>
             <p><a href="tel:+919718590005">+91 9718590005</a></p>
@@ -312,7 +313,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class="contact-info-icon"><i class="fa-solid fa-envelope"></i></div>
           <div class="contact-info-text">
             <h4>Email Inquiries</h4>
-            <p><a href="mailto:theglobalrisefoundation@gmail.com">theglobalrisefoundation@gmail.com</a></p>
+            <p><a href="mailto:info@kramyogsewasadan.org">info@kramyogsewasadan.org</a></p>
           </div>
         </div>
 

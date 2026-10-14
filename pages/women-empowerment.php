@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Women Empowerment Initiatives | The Global Rise Foundation</title>
-  <meta name="description" content="Discover how The Global Rise Foundation empowers rural and low-income women in India through vocational sewing workshops and financial literacy courses.">
+  <title>Women Empowerment Initiatives | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover how Kram Yog Sewa Sadan empowers rural and low-income women in India through vocational sewing workshops and financial literacy courses.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -47,12 +47,12 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/women_empowerment.png" alt="Women entrepreneurs and self-help group members empowered through The Global Rise Foundation's skills training programs" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/women_empowerment.png" alt="Women entrepreneurs and self-help group members empowered through Kram Yog Sewa Sadan's skills training programs" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>Empowering a woman empowers an entire family and community. In rural villages and urban slum clusters across India, women face high levels of financial dependence, lack of formal skills training, and limited livelihood options. The Global Rise Foundation's Women Empowerment initiatives focus on turning dependency into economic self-reliance—equipping women with vocational skills, mentoring them in financial literacy, and supporting self-help business groups.</p>
+        <p>Empowering a woman empowers an entire family and community. In rural villages and urban slum clusters across India, women face high levels of financial dependence, lack of formal skills training, and limited livelihood options. Kram Yog Sewa Sadan's Women Empowerment initiatives focus on turning dependency into economic self-reliance—equipping women with vocational skills, mentoring them in financial literacy, and supporting self-help business groups.</p>
         <p>By providing training in sewing, design, and home-business trades, we help women build sustainable micro-incomes, ensuring they can support their children's education and health.</p>
       </section>
 
@@ -67,7 +67,7 @@
       </section>
 
       <div class="initiative-quote-box">
-        <p>"A self-reliant woman is a pillar of strength. By providing sewing workshops and business mentoring, TGRF is turning dreams of independence into secure family livelihoods."</p>
+        <p>"A self-reliant woman is a pillar of strength. By providing sewing workshops and business mentoring, Kram Yog Sewa Sadan is turning dreams of independence into secure family livelihoods."</p>
       </div>
 
       <section class="initiative-content-block">

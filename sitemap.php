@@ -3,7 +3,7 @@
  * sitemap.php
  * ============================================================
  * Dynamic XML Sitemap Generator
- * The Global Rise Foundation
+ * Kram Yog Sewa Sadan
  * ============================================================
  */
 
@@ -11,14 +11,14 @@ require_once __DIR__ . '/includes/config.php';
 $pdo = getDB();
 
 // Determine base URL dynamically or from config
-$site_url = 'https://globalrisefoundation.com';
+$site_url = 'https://kramyogsewasadan.org';
 if (defined('APP_URL') && !empty(APP_URL)) {
     $site_url = rtrim(APP_URL, '/');
 } else {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
     $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
     if (strpos($host, 'localhost') !== false) {
-        $site_url = $protocol . $host . "/gloabl-rise";
+        $site_url = $protocol . $host . "/kramyogsewasadan.org";
     } else {
         $site_url = $protocol . $host;
     }

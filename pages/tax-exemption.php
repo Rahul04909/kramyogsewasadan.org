@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tax Exemption (Section 80G) | The Global Rise Foundation</title>
-  <meta name="description" content="Understand the tax benefits of your contributions to The Global Rise Foundation. Learn about 80G tax exemption guidelines.">
+  <title>Tax Exemption (Section 80G) | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Understand the tax benefits of your contributions to Kram Yog Sewa Sadan. Learn about 80G tax exemption guidelines.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -45,14 +45,14 @@
 
       <section class="initiative-content-block">
         <h2>Section 80G Tax Benefits</h2>
-        <p>The Global Rise Foundation is registered under Section 12A of the Income Tax Act, 1961, and has been granted approval under Section 80G. Contributions made by Indian taxpayers qualify for a 50% deduction from their taxable income. By supporting our on-ground mid-day meals and developmental programs, you are not only saving lives but also optimizing your tax liability.</p>
+        <p>Kram Yog Sewa Sadan is registered under Section 12A of the Income Tax Act, 1961, and has been granted approval under Section 80G. Contributions made by Indian taxpayers qualify for a 50% deduction from their taxable income. By supporting our on-ground community care and developmental programs, you are not only making a tangible difference but also optimizing your tax liability.</p>
       </section>
 
       <section class="initiative-content-block">
         <h2>Key Details for Claims</h2>
         <div style="background: #f0f7ff; border-left: 4px solid #1b5182; padding: 20px; border-radius: 4px; margin-bottom: 25px;">
           <table style="width: 100%; font-size: 0.95rem; border-collapse: collapse;">
-            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182; width: 160px;">Organization</td><td style="padding: 10px 0; color: #2d3748;">The Global Rise Foundation</td></tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182; width: 160px;">Organization</td><td style="padding: 10px 0; color: #2d3748;">Kram Yog Seva Sadan Trust</td></tr>
             <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Charity Reg ID / PAN</td><td style="padding: 10px 0; color: #2d3748; font-family: monospace; font-weight: 600;">AAATT6468P</td></tr>
             <tr style="border-bottom: 1px solid #e2e8f0;"><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Exemption Benefit</td><td style="padding: 10px 0; color: #2d3748;">50% Tax Deduction under Sec 80G</td></tr>
             <tr><td style="padding: 10px 0; font-weight: 700; color: #1b5182;">Eligible Taxpayers</td><td style="padding: 10px 0; color: #2d3748;">All Indian Citizens / Taxpayers</td></tr>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Senior Citizen Care & Support | The Global Rise Foundation</title>
-  <meta name="description" content="Discover how The Global Rise Foundation supports elderly citizens in India with monthly nutrition kits, free geriatric health checks, and shelter aid.">
+  <title>Senior Citizen Care & Support | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Discover how Kram Yog Sewa Sadan supports elderly citizens in India with monthly nutrition kits, free geriatric health checks, and shelter aid.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -47,12 +47,12 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/senior_care.png" alt="Senior citizens receiving care, meals, and companionship through The Global Rise Foundation programs" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/senior_care.png" alt="Senior citizens receiving care, meals, and companionship through Kram Yog Sewa Sadan programs" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
         <h2>Overview</h2>
-        <p>A society is judged by how it protects its most vulnerable, including its elderly. In many low-income urban neighborhoods and rural villages across India, destitute senior citizens are abandoned or lack the financial means to afford basic food, medicines, and housing. The Global Rise Foundation's Senior Citizen Care initiatives work to restore dignity, security, and health to marginalized elders, helping them live their twilight years in peace.</p>
+        <p>A society is judged by how it protects its most vulnerable, including its elderly. In many low-income urban neighborhoods and rural villages across India, destitute senior citizens are abandoned or lack the financial means to afford basic food, medicines, and housing. Kram Yog Sewa Sadan's Senior Citizen Care initiatives work to restore dignity, security, and health to marginalized elders, helping them live their twilight years in peace.</p>
         <p>Through our volunteer networks and healthcare clinics, we provide a consistent safety net—delivering monthly nutritional supplies, medical care, and supporting local old age shelters.</p>
       </section>
 
@@ -67,7 +67,7 @@
       </section>
 
       <div class="initiative-quote-box">
-        <p>"Our seniors deserve a life of comfort and respect, not isolation. By delivering monthly groceries and sponsoring eye surgeries, TGRF stands as a family for those with no one to call their own."</p>
+        <p>"Our seniors deserve a life of comfort and respect, not isolation. By delivering monthly groceries and sponsoring eye surgeries, Kram Yog Sewa Sadan stands as a family for those with no one to call their own."</p>
       </div>
 
       <section class="initiative-content-block">

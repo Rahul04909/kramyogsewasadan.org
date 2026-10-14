@@ -15,11 +15,11 @@
 
     <!-- Slide 3 -->
     <div class="hero-slide">
-      <img src="https://www.akshayapatra.org/includefiles/banners/HB-HM-Banner-1583x550-v2_(1).jpg" alt="The Global Rise Foundation Banner" class="hero-slide-image">
+      <img src="https://www.akshayapatra.org/includefiles/banners/HB-HM-Banner-1583x550-v2_(1).jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
     </div>
     <!-- Slide 4 -->
     <div class="hero-slide">
-      <img src="../assets/images/hero.jpg" alt="The Global Rise Foundation Banner" class="hero-slide-image">
+      <img src="../assets/images/hero.jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
     </div>
 
 

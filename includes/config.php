@@ -40,7 +40,7 @@ if (file_exists($envPath . '/.env')) {
 }
 
 // ── Application ──────────────────────────────────────────────
-define('APP_NAME',    $_ENV['APP_NAME']  ?? 'The Global Rise Foundation');
+define('APP_NAME',    $_ENV['APP_NAME']  ?? 'Kram Yog Sewa Sadan');
 define('APP_ENV',     $_ENV['APP_ENV']   ?? 'production');
 define('APP_URL',     $_ENV['APP_URL']   ?? '');
 define('APP_DEBUG',   filter_var($_ENV['APP_DEBUG'] ?? false, FILTER_VALIDATE_BOOLEAN));

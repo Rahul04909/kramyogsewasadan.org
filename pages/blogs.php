@@ -11,8 +11,8 @@ $blogs = $stmt->fetchAll();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blogs & Articles | The Global Rise Foundation</title>
-  <meta name="description" content="Read insightful blogs and articles on child nutrition, quality education, women empowerment, and sustainable community development by The Global Rise Foundation.">
+  <title>Blogs & Articles | Kram Yog Sewa Sadan</title>
+  <meta name="description" content="Read insightful blogs and articles on senior citizen care, disability support, education, women empowerment, and community development by Kram Yog Sewa Sadan.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">

@@ -3,7 +3,7 @@
  * sql/insert-admin.php
  * ============================================================
  * Database Migrator / Admin Seeding Script
- * The Global Rise Foundation
+ * Kram Yog Sewa Sadan
  *
  * Usage: Run via CLI (php sql/insert-admin.php) or access via browser.
  * ============================================================
@@ -24,7 +24,7 @@ if (!$is_cli) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Admin Seeder - The Global Rise Foundation</title>
+        <title>Admin Seeder - Kram Yog Sewa Sadan</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
         <style>
             body { font-family: "Montserrat", sans-serif; background: #f4f6f9; color: #333; padding: 40px 20px; margin: 0; }
@@ -79,7 +79,7 @@ try {
     $stmt = $pdo->prepare("SELECT COUNT(*) FROM `admins` WHERE `username` = :username OR `email` = :email");
     $stmt->execute([
         ':username' => 'tgrf_admin',
-        ':email'    => 'admin@globalrisefoundation.org'
+        ':email'    => 'info@kramyogsewasadan.org'
     ]);
     $exists = (int)$stmt->fetchColumn() > 0;
 
@@ -95,8 +95,8 @@ try {
         ");
 
         $insertStmt->execute([
-            ':name'          => 'The Global Rise Foundation',
-            ':email'         => 'admin@globalrisefoundation.org',
+            ':name'          => 'Kram Yog Sewa Sadan',
+            ':email'         => 'info@kramyogsewasadan.org',
             ':username'      => 'tgrf_admin',
             ':mobile'        => '9876543210',
             ':profile_image' => '', // Empty means using standard avatar fallback
@@ -104,8 +104,8 @@ try {
         ]);
 
         $seed_status = "SUCCESS: Seeded default admin user:\n"
-                     . "  - Name: The Global Rise Foundation\n"
-                     . "  - Email: admin@globalrisefoundation.org\n"
+                     . "  - Name: Kram Yog Sewa Sadan\n"
+                     . "  - Email: info@kramyogsewasadan.org\n"
                      . "  - Username: tgrf_admin\n"
                      . "  - Password: Admin@TGRF2026!\n"
                      . "(Remember to update credentials immediately in the admin profile settings page.)\n";

@@ -232,7 +232,7 @@ if ($pos !== false) {
         <!-- Consent Checklist -->
         <label class="donate-checkbox-consent">
           <input type="checkbox" id="consentCheckbox" checked required>
-          <span>I have read through the website <a href="#" target="_blank">Privacy Policy</a> & <a href="#" target="_blank">Terms and Conditions</a> to make a donation to The Global Rise Foundation.</span>
+          <span>I have read through the website <a href="pages/terms-conditions.php" target="_blank">Privacy Policy</a> &amp; <a href="pages/terms-conditions.php" target="_blank">Terms and Conditions</a> to make a donation to Kram Yog Sewa Sadan.</span>
         </label>
         <div class="donate-error-message" id="error-consent" style="margin-top: 5px;">You must consent to the Terms and Conditions to proceed.</div>
 
@@ -622,7 +622,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "key": orderData.key_id,
             "amount": orderData.amount,
             "currency": "INR",
-            "name": "The Global Rise Foundation",
+            "name": "Kram Yog Sewa Sadan",
             "description": "Donation Support for " + tabData[currentCause].title,
             "image": "assets/logo.png",
             "order_id": orderData.order_id,

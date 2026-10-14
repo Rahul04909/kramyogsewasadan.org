@@ -2,10 +2,10 @@
 // Calculate relative base url path dynamically to support inclusion in nested directories
 $base_url = '';
 $request_uri = $_SERVER['REQUEST_URI'];
-$project_name = 'gloabl-rise';
-$pos = strpos($request_uri, $project_name);
-if ($pos !== false) {
-    $base_url = substr($request_uri, 0, $pos + strlen($project_name)) . '/';
+if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
+    $base_url = substr($request_uri, 0, strpos($request_uri, 'kramyogsewasadan.org') + strlen('kramyogsewasadan.org')) . '/';
+} elseif (strpos($request_uri, 'gloabl-rise') !== false) {
+    $base_url = substr($request_uri, 0, strpos($request_uri, 'gloabl-rise') + strlen('gloabl-rise')) . '/';
 } else {
     $base_url = '/';
 }
@@ -31,7 +31,7 @@ if ($pos !== false) {
     <div class="header-container main-nav-bar">
       <!-- Logo Image -->
       <a href="<?php echo $base_url; ?>index.php" class="logo-link" aria-label="Kram Yog Seva Sadan Home">
-        <img src="<?php echo $base_url; ?>assets/logo.jpeg" alt="Kram Yog Seva Sadan Logo" class="logo-img">
+        <img src="<?php echo $base_url; ?>assets/logo.png" alt="Kram Yog Seva Sadan Logo" class="logo-img">
       </a>
 
       <!-- Desktop Nav Links -->

@@ -172,7 +172,7 @@ try {
     $mail = buildMailer();
     $mail->addAddress($raw['donor_email'], $raw['donor_name']);
     $mail->isHTML(true);
-    $mail->Subject = 'Receipt of Your Contribution to The Global Rise Foundation';
+    $mail->Subject = 'Receipt of Your Contribution to ' . APP_NAME;
     
     $exemptionNote = '';
     if ($raw['request_80g'] === 1) {
@@ -187,7 +187,7 @@ try {
     <div style="font-family:Montserrat,Arial,sans-serif;max-width:580px;margin:0 auto;background:#ffffff;border:1px solid #e2e8f0;border-radius:8px;overflow:hidden;">
       <div style="background:linear-gradient(135deg,#1b5182,#113252);padding:35px 30px;text-align:center;">
         <h1 style="color:#ffffff;font-size:22px;margin:0;">Thank You for Your Support!</h1>
-        <p style="color:rgba(255,255,255,0.85);font-size:14px;margin:8px 0 0;">The Global Rise Foundation Donation Receipt</p>
+        <p style="color:rgba(255,255,255,0.85);font-size:14px;margin:8px 0 0;">' . APP_NAME . ' Donation Receipt</p>
       </div>
       <div style="padding:35px 30px;">
         <p style="color:#2d3748;font-size:15px;">Dear <strong>' . htmlspecialchars($raw['donor_title'] . ' ' . $raw['donor_name']) . '</strong>,</p>
@@ -205,16 +205,16 @@ try {
 
         <p style="color:#4a5568;font-size:14px;line-height:1.7;">You will receive periodic project updates regarding how your contribution is changing lives on the ground. Together, we are creating a better tomorrow.</p>
         
-        <p style="color:#4a5568;font-size:14px;margin-top:25px;">With warm gratitude,<br><strong style="color:#1b5182;">The Global Rise Foundation Team</strong><br>' . APP_NAME . '</p>
+        <p style="color:#4a5568;font-size:14px;margin-top:25px;">With warm gratitude,<br><strong style="color:#1b5182;">' . APP_NAME . ' Team</strong></p>
       </div>
       <div style="background:#f7fafc;padding:18px 30px;text-align:center;border-top:1px solid #e2e8f0;">
         <p style="color:#a0aec0;font-size:12px;margin:0;">© ' . date('Y') . ' ' . APP_NAME . ' | All Rights Reserved</p>
       </div>
     </div>';
-    $mail->AltBody = "Dear {$raw['donor_name']},\n\nThank you for your generous contribution of ₹" . number_format($raw['amount'], 2) . " to The Global Rise Foundation!\nReceipt Code: #DON-" . str_pad($donationId, 5, '0', STR_PAD_LEFT) . "\nCause: {$causeText}\nWe appreciate your support.";
+    $mail->AltBody = "Dear {$raw['donor_name']},\n\nThank you for your generous contribution of ₹" . number_format($raw['amount'], 2) . " to " . APP_NAME . "!\nReceipt Code: #DON-" . str_pad($donationId, 5, '0', STR_PAD_LEFT) . "\nCause: {$causeText}\nWe appreciate your support.";
     $mail->send();
 } catch (MailerException $e) {
-    error_log('[TGRF Donor Mailer] Donor confirmation mail failed: ' . $e->getMessage());
+    error_log('[Donor Mailer] Donor confirmation mail failed: ' . $e->getMessage());
 }
 
 // 2. Send Notification Email to Admin
