@@ -103,14 +103,14 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
   <div class="footer-info-bar">
     <div class="header-container">
       <span>Charity Id : xxxxxxxx</span>
-      <span>Kram Yog Sewa Sadan &copy; 2026 | A Website Designed By <a href="https://www.mineib.com" target="_blank" style="color: #666666; text-decoration: none; font-weight: 600;" onmouseover="this.style.color='#1b5182'" onmouseout="this.style.color='#666666'">Mineib Creative Technology</a></span>
+      <span>Kram Yog Sewa Sadan &copy; 2026 | A Website Designed By <a href="#" target="_blank" style="color: #666666; text-decoration: none; font-weight: 600;" onmouseover="this.style.color='#1b5182'" onmouseout="this.style.color='#666666'">Rahul Dhiman | +91 80599 82049</a></span>
     </div>
   </div>
 
   <!-- Silhouette Illustration strip (full-width bottom) -->
   <div class="footer-silhouette" style="background-image: url('<?php echo $footer_base_url; ?>assets/footer_bg.png');">
     <!-- Floating WhatsApp Contact Button -->
-    <a href="https://wa.me/917292007777" class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with Kram Yog Sewa Sadan on WhatsApp">
+    <a href="https://wa.me/919671413639" class="whatsapp-float-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with Kram Yog Sewa Sadan on WhatsApp">
       <i class="fa-brands fa-whatsapp"></i>
     </a>
   </div>
