@@ -5,21 +5,21 @@
     
     <!-- Slide 1 -->
     <div class="hero-slide active">
-      <img src="https://www.akshayapatra.org/includefiles/banners/MDM-Header_banner-web-1583x550.jpg" alt="Mid-Day Meal Banner" class="hero-slide-image">
+      <img src="assets/hero/banner-1-image.jpg" alt="Mid-Day Meal Banner" class="hero-slide-image">
     </div>
 
     <!-- Slide 2 -->
     <div class="hero-slide">
-      <img src="https://www.akshayapatra.org/includefiles/banners/HB_Special_Occasion-web.jpg" alt="Special Occasion Banner" class="hero-slide-image">
+      <img src="assets/hero/banner-1-image.jpg" alt="Special Occasion Banner" class="hero-slide-image">
     </div>
 
     <!-- Slide 3 -->
     <div class="hero-slide">
-      <img src="https://www.akshayapatra.org/includefiles/banners/HB-HM-Banner-1583x550-v2_(1).jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
+      <img src="assets/hero/banner-1-image.jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
     </div>
     <!-- Slide 4 -->
     <div class="hero-slide">
-      <img src="../assets/images/hero.jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
+      <img src="assets/hero/banner-1-image.jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
     </div>
 
 
