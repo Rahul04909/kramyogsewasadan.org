@@ -2,10 +2,10 @@
 // Calculate relative base url path dynamically to support inclusion in nested directories
 $work_base_url = '';
 $request_uri = $_SERVER['REQUEST_URI'];
-$project_name = 'gloabl-rise';
-$pos = strpos($request_uri, $project_name);
-if ($pos !== false) {
-    $work_base_url = substr($request_uri, 0, $pos + strlen($project_name)) . '/';
+if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
+    $work_base_url = substr($request_uri, 0, strpos($request_uri, 'kramyogsewasadan.org') + strlen('kramyogsewasadan.org')) . '/';
+} elseif (strpos($request_uri, 'gloabl-rise') !== false) {
+    $work_base_url = substr($request_uri, 0, strpos($request_uri, 'gloabl-rise') + strlen('gloabl-rise')) . '/';
 } else {
     $work_base_url = '/';
 }

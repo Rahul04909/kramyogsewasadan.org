@@ -23,6 +23,9 @@
   <!-- Custom Our Work Stylesheet -->
   <link rel="stylesheet" href="assets/css/our-work.css">
   
+  <!-- Custom Ground Action Seva Gallery Stylesheet -->
+  <link rel="stylesheet" href="assets/css/gallery.css">
+  
   <!-- Custom SDG Goals Stylesheet -->
   <link rel="stylesheet" href="assets/css/sdg.css">
   
@@ -63,6 +66,9 @@
 
   <!-- Call the Our Work Initiatives Component -->
   <?php include 'components/our-work.php'; ?>
+
+  <!-- Call the Ground Action Seva Gallery Component -->
+  <?php include 'components/gallery.php'; ?>
 
   <!-- Call the Contributor Testimonial Component -->
   <?php include 'components/contributor.php'; ?>
