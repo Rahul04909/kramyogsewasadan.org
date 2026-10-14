@@ -8,20 +8,6 @@
       <img src="assets/hero/old-age-home-banner.jpg" alt="Mid-Day Meal Banner" class="hero-slide-image">
     </div>
 
-    <!-- Slide 2 -->
-    <div class="hero-slide">
-      <img src="assets/hero/banner-1-image.jpg" alt="Special Occasion Banner" class="hero-slide-image">
-    </div>
-
-    <!-- Slide 3 -->
-    <div class="hero-slide">
-      <img src="assets/hero/banner-1-image.jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
-    </div>
-    <!-- Slide 4 -->
-    <div class="hero-slide">
-      <img src="assets/hero/banner-1-image.jpg" alt="Kram Yog Sewa Sadan Banner" class="hero-slide-image">
-    </div>
-
 
 
   </div>
