@@ -15,7 +15,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
   <div class="header-container">
     
     <!-- Title Section -->
-    <h2 class="narrative-title">Kram Yog Sewa Sadan <span class="title-narrative-highlight">Narrative</span></h2>
+    <h2 class="narrative-title">Kram Yog Sewa Sadan <span class="title-narrative-highlight">Old Age Home & Elderly Care</span></h2>
     <div class="narrative-badge">Primary cause</div>
 
     <!-- Narrative Infographic Grid -->
