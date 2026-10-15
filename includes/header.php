@@ -36,8 +36,8 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
 
       <!-- Desktop Nav Links -->
       <ul class="nav-menu">
-        <li><a href="<?php echo $base_url; ?>pages/about-us.php" class="nav-link">Who We Are</a></li>
-        <li><a href="<?php echo $base_url; ?>pages/what-we-do.php" class="nav-link">What We Do</a></li>
+        <li><a href="<?php echo $base_url; ?>pages/about-us.php" class="nav-link">About us</a></li>
+        <li><a href="<?php echo $base_url; ?>pages/what-we-do.php" class="nav-link">What we do</a></li>
         <li><a href="<?php echo $base_url; ?>pages/certifications.php" class="nav-link">Certificates</a></li>
         <li><a href="<?php echo $base_url; ?>pages/news-stories.php" class="nav-link">News & Stories</a></li>
         <!-- <li><a href="<?php echo $base_url; ?>volunteer.php" class="nav-link">Get Involved</a></li> -->
