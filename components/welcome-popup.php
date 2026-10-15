@@ -28,6 +28,11 @@ $donate_url   = $popup_base_url . 'donate.php';
 <div class="welcome-popup-backdrop" id="welcomePopup" role="dialog" aria-modal="true" aria-labelledby="welcomePopupTitle">
   <div class="welcome-popup-dialog">
     
+    <!-- Auto-Close Countdown Progress Bar -->
+    <div class="welcome-popup-progress-track">
+      <div class="welcome-popup-progress-bar"></div>
+    </div>
+
     <!-- Close Button (X) -->
     <button type="button" class="welcome-popup-close-btn" id="closeWelcomePopupBtn" aria-label="Close Brochure Pop-up">
       <i class="fa-solid fa-xmark"></i>
@@ -62,36 +67,76 @@ $donate_url   = $popup_base_url . 'donate.php';
   <i class="fa-solid fa-book-open"></i> ट्रस्ट ब्रोशर
 </button>
 
-<!-- Pop-up Interaction Script -->
+<!-- Pop-up Interaction Script with Auto-Close -->
 <script>
   (function() {
     const popup = document.getElementById('welcomePopup');
+    const dialog = popup ? popup.querySelector('.welcome-popup-dialog') : null;
     const closeBtn = document.getElementById('closeWelcomePopupBtn');
     const dismissBtn = document.getElementById('dismissWelcomePopupBtn');
     const reopenBadge = document.getElementById('reopenBrochureBadge');
 
-    function openWelcomePopup() {
+    let autoCloseTimer = null;
+    const AUTO_CLOSE_DURATION = 3500; // 3.5 seconds (between 2 to 4 seconds)
+
+    function startAutoCloseTimer(duration = AUTO_CLOSE_DURATION) {
+      clearAutoCloseTimer();
+      autoCloseTimer = setTimeout(() => {
+        closeWelcomePopup();
+      }, duration);
+    }
+
+    function clearAutoCloseTimer() {
+      if (autoCloseTimer) {
+        clearTimeout(autoCloseTimer);
+        autoCloseTimer = null;
+      }
+    }
+
+    function openWelcomePopup(autoClose = true) {
       if (popup) {
         popup.classList.add('active');
         document.body.style.overflow = 'hidden';
+
+        // Reset progress bar animation
+        const progressBar = popup.querySelector('.welcome-popup-progress-bar');
+        if (progressBar) {
+          progressBar.style.animation = 'none';
+          void progressBar.offsetWidth; // trigger reflow
+          progressBar.style.animation = '';
+        }
+
+        if (autoClose) {
+          startAutoCloseTimer(AUTO_CLOSE_DURATION);
+        }
       }
     }
 
     function closeWelcomePopup() {
+      clearAutoCloseTimer();
       if (popup) {
         popup.classList.remove('active');
         document.body.style.overflow = '';
-        // Remember user closed it in this browsing session
-        try {
-          sessionStorage.setItem('kyss_brochure_seen', 'true');
-        } catch (e) {}
       }
+    }
+
+    // Pause timer on hover so user can read or click buttons comfortably
+    if (dialog) {
+      dialog.addEventListener('mouseenter', () => {
+        clearAutoCloseTimer();
+      });
+      dialog.addEventListener('mouseleave', () => {
+        if (popup && popup.classList.contains('active')) {
+          // Resume auto-close with 1.5 seconds remaining
+          startAutoCloseTimer(1500);
+        }
+      });
     }
 
     // Automatically trigger on page load after a smooth 600ms delay
     window.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
-        openWelcomePopup();
+        openWelcomePopup(true);
       }, 600);
     });
 
@@ -124,7 +169,7 @@ $donate_url   = $popup_base_url . 'donate.php';
     // Reopen badge click
     if (reopenBadge) {
       reopenBadge.addEventListener('click', () => {
-        openWelcomePopup();
+        openWelcomePopup(true);
       });
     }
   })();
