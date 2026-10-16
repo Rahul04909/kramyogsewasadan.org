@@ -53,15 +53,15 @@
         
         <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 20px;">
           
-          <!-- Trustee 1 -->
-          <div style="background: #f8f9fa; border-left: 4px solid #1b5182; padding: 20px; border-radius: 4px; display: flex; gap: 20px; align-items: flex-start;">
-            <div style="font-size: 2.5rem; color: #1b5182; background: #e2e8f0; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 50%; flex-shrink: 0;">
-              <i class="fas fa-user-tie"></i>
+          <!-- Trustee 1: Smt. Mamta -->
+          <div style="background: #f8f9fa; border-left: 4px solid #1b5182; padding: 20px; border-radius: 8px; display: flex; gap: 20px; align-items: flex-start;">
+            <div style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 2px solid #13a34a; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+              <img src="../assets/hero/mamta.jpg" alt="Smt. Mamta - Founder &amp; Managing Trustee" style="width: 100%; height: 100%; object-fit: cover; object-position: center 15%;">
             </div>
             <div>
-              <h3 style="margin: 0; font-size: 1.2rem; font-weight: 700; color: #2c3e50;">Dr. Rajesh Kumar</h3>
-              <p style="margin: 3px 0 10px; font-weight: 600; font-size: 0.85rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px;">Founder &amp; Managing Trustee</p>
-              <p style="margin: 0; color: #4a5568; font-size: 0.95rem; line-height: 1.6;">Dr. Kumar holds a doctorate in Social Development and has over 15 years of experience executing nutrition and public school learning campaigns across rural India. He guides the general operations and coordinates kitchen infrastructure expansion.</p>
+              <h3 style="margin: 0; font-size: 1.25rem; font-weight: 700; color: #2c3e50;">Smt. Mamta</h3>
+              <p style="margin: 3px 0 10px; font-weight: 600; font-size: 0.85rem; color: #13a34a; text-transform: uppercase; letter-spacing: 0.5px;">Founder &amp; Managing Trustee</p>
+              <p style="margin: 0; color: #4a5568; font-size: 0.95rem; line-height: 1.6;">Smt. Mamta is the founding visionary behind Kram Yog Sewa Sadan Trust. Dedicated to the principle of <em>"सेवा ही कर्म, मानवता ही धर्म"</em>, she leads our Old Age Home initiatives, elderly welfare programs, rehabilitation of differently-abled individuals, and community empowerment drives across Haryana.</p>
             </div>
           </div>
 

@@ -20,6 +20,9 @@
   <!-- Custom Narrative Stylesheet -->
   <link rel="stylesheet" href="assets/css/narrative.css">
   
+  <!-- Custom Founder's Message Stylesheet -->
+  <link rel="stylesheet" href="assets/css/founder-message.css">
+  
   <!-- Custom Our Work Stylesheet -->
   <link rel="stylesheet" href="assets/css/our-work.css">
   
@@ -66,6 +69,9 @@
 
   <!-- Call the Narrative Section Component -->
   <?php include 'components/narrative.php'; ?>
+
+  <!-- Call the Founder's Message Component -->
+  <?php include 'components/founder-message.php'; ?>
 
   <!-- Call the Our Work Initiatives Component -->
   <?php include 'components/our-work.php'; ?>

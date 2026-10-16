@@ -1,0 +1,556 @@
+/* ============================================================
+   Founder's Message Component Stylesheet
+   Kram Yog Sewa Sadan Trust
+   ============================================================ */
+
+/* Import Google Fonts for Quote and Signature Typography */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500;1,600;1,700&family=Caveat:wght@600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+.founder-message-section {
+  position: relative;
+  background: linear-gradient(135deg, #f8fbfd 0%, #f3f8fc 50%, #eff5fa 100%);
+  padding: 85px 0 90px 0;
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid #e5edf5;
+  border-bottom: 1px solid #e5edf5;
+}
+
+/* Subtle background decorative ornament */
+.founder-message-section::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  right: -100px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(19, 163, 74, 0.05) 0%, rgba(27, 81, 130, 0.03) 70%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.founder-message-section::after {
+  content: '';
+  position: absolute;
+  bottom: -150px;
+  left: -120px;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(27, 81, 130, 0.05) 0%, rgba(19, 163, 74, 0.02) 70%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- Grid Container --- */
+.founder-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 55px;
+  align-items: center;
+}
+
+/* ----------------------------------------------------
+   1. LEFT COLUMN: FOUNDER PORTRAIT CARD
+---------------------------------------------------- */
+.founder-card-col {
+  display: flex;
+  justify-content: center;
+}
+
+.founder-card {
+  width: 100%;
+  max-width: 380px;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px -10px rgba(27, 81, 130, 0.16), 0 4px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2eaf2;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  position: relative;
+}
+
+.founder-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 45px -12px rgba(27, 81, 130, 0.22), 0 8px 18px rgba(0, 0, 0, 0.06);
+}
+
+/* Image Frame & Presentation */
+.founder-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  background: #f1f5f9;
+  overflow: hidden;
+}
+
+.founder-image-backdrop {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 65%, rgba(15, 33, 55, 0.55) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.founder-portrait-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.founder-card:hover .founder-portrait-img {
+  transform: scale(1.035);
+}
+
+/* Verified Badge on top of image */
+.founder-verified-badge {
+  position: absolute;
+  bottom: 14px;
+  left: 16px;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  color: #1b5182;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(27, 81, 130, 0.15);
+}
+
+.founder-verified-badge i {
+  color: #13a34a;
+  font-size: 13px;
+}
+
+/* Profile details below image */
+.founder-profile-body {
+  padding: 24px 22px 26px 22px;
+  text-align: center;
+}
+
+.founder-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1b5182;
+  margin: 0 0 4px 0;
+  letter-spacing: -0.2px;
+}
+
+.founder-role {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #13a34a;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin: 0 0 3px 0;
+}
+
+.founder-org {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #64748b;
+  margin: 0;
+}
+
+.founder-card-divider {
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, #1b5182, #13a34a);
+  border-radius: 2px;
+  margin: 16px auto;
+}
+
+/* Causes Tags */
+.founder-causes-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.cause-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #334155;
+  background: #f1f6fa;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2eaf2;
+}
+
+.cause-tag i {
+  color: #1b5182;
+  font-size: 11px;
+}
+
+/* ----------------------------------------------------
+   2. RIGHT COLUMN: FOUNDER QUOTE & MESSAGE
+---------------------------------------------------- */
+.founder-content-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Eyebrow badge */
+.founder-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  background: rgba(27, 81, 130, 0.08);
+  color: #1b5182;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.founder-eyebrow-icon {
+  color: #13a34a;
+  font-size: 13px;
+}
+
+/* Section Heading */
+.founder-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.founder-heading-highlight {
+  position: relative;
+  color: #1b5182;
+  display: inline-block;
+}
+
+.founder-heading-highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #13a34a;
+  border-radius: 2px;
+}
+
+/* Hindi Motto Ribbon */
+.founder-motto-ribbon {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #1b5182 0%, #17426a 100%);
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: fit-content;
+  box-shadow: 0 4px 14px rgba(27, 81, 130, 0.2);
+  margin-top: 4px;
+}
+
+.motto-quote-icon {
+  color: #fbbf24; /* Warm Gold */
+  font-size: 14px;
+}
+
+.motto-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+/* --- The Quote Box (Editorial Masterpiece) --- */
+.founder-quote-box {
+  position: relative;
+  background: #ffffff;
+  border-left: 5px solid #13a34a;
+  padding: 24px 28px 24px 28px;
+  border-radius: 0 14px 14px 0;
+  box-shadow: 0 10px 25px -8px rgba(0, 0, 0, 0.06);
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.quote-decorative-watermark {
+  position: absolute;
+  right: 18px;
+  bottom: -15px;
+  font-size: 5rem;
+  color: rgba(27, 81, 130, 0.05);
+  line-height: 1;
+  pointer-events: none;
+  font-family: 'Playfair Display', serif;
+}
+
+.founder-primary-quote {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.75;
+  color: #1e293b;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Extended Narrative Text */
+.founder-narrative-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.founder-narrative-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.94rem;
+  line-height: 1.7;
+  color: #475569;
+  margin: 0;
+}
+
+.founder-narrative-text strong {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.founder-narrative-text em {
+  color: #1b5182;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* --- Founder Signature & CTAs --- */
+.founder-action-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 10px;
+  border-top: 1px dashed #cbd5e1;
+  flex-wrap: wrap;
+}
+
+.founder-signature-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.founder-cursive-signature {
+  font-family: 'Caveat', cursive;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #1b5182;
+  line-height: 1;
+  transform: rotate(-3deg);
+  margin-bottom: 2px;
+}
+
+.founder-signature-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Buttons */
+.founder-cta-buttons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.founder-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.founder-btn-primary {
+  background-color: #13a34a;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(19, 163, 74, 0.28);
+}
+
+.founder-btn-primary:hover {
+  background-color: #0e853a;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(19, 163, 74, 0.35);
+}
+
+.founder-btn-primary i {
+  color: #ffffff;
+  transition: transform 0.25s ease;
+}
+
+.founder-btn-primary:hover i {
+  transform: scale(1.15);
+}
+
+.founder-btn-outline {
+  background-color: #ffffff;
+  color: #1b5182;
+  border: 1.5px solid #1b5182;
+}
+
+.founder-btn-outline:hover {
+  background-color: #1b5182;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Trust accreditation pills */
+.founder-trust-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 4px;
+}
+
+.trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #475569;
+  background: #ffffff;
+  border: 1px solid #dbeafe;
+  padding: 5px 12px;
+  border-radius: 50px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+}
+
+.trust-pill i {
+  color: #13a34a;
+  font-size: 12px;
+}
+
+/* ----------------------------------------------------
+   RESPONSIVE DESIGN BREAKPOINTS
+---------------------------------------------------- */
+@media (max-width: 1200px) {
+  .founder-grid {
+    grid-template-columns: 340px 1fr;
+    gap: 40px;
+  }
+
+  .founder-image-wrapper {
+    height: 350px;
+  }
+
+  .founder-heading {
+    font-size: 1.9rem;
+  }
+
+  .founder-primary-quote {
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 991px) {
+  .founder-message-section {
+    padding: 60px 0 65px 0;
+  }
+
+  .founder-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .founder-card {
+    max-width: 440px;
+  }
+
+  .founder-heading {
+    font-size: 1.85rem;
+  }
+
+  .founder-action-row {
+    justify-content: flex-start;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .founder-heading {
+    font-size: 1.6rem;
+  }
+
+  .founder-primary-quote {
+    font-size: 1.08rem;
+    line-height: 1.65;
+  }
+
+  .founder-quote-box {
+    padding: 18px 20px;
+  }
+
+  .founder-motto-ribbon {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .motto-text {
+    font-size: 0.95rem;
+  }
+
+  .founder-action-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .founder-cta-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .founder-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
