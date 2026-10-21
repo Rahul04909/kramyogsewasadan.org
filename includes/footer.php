@@ -34,9 +34,9 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
         <div class="footer-bank-details">
           <div><span>A/C Name:</span> Kram Yog Seva Sadan Trust</div>
           <div><span>Bank Name:</span> HDFC Bank</div>
-          <div><span>A/C No:</span> 50200070560644</div>
-          <div><span>IFSC Code:</span> HDFC0006788</div>
-          <div><span>Branch:</span> NIT Faridabad</div>
+          <div><span>A/C No:</span> 1409102100002093</div>
+          <div><span>IFSC Code:</span>PUNB014091</div>
+          <div><span>Branch:</span> sonipat, haryana</div>
           <div><span>A/C Type:</span> Current Account</div>
         </div>
       </div>
