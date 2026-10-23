@@ -8,6 +8,8 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
     $base_url = substr($request_uri, 0, strpos($request_uri, 'gloabl-rise') + strlen('gloabl-rise')) . '/';
 } else {
     $base_url = '/';
+}
+
 // Include official visitor counter engine
 require_once __DIR__ . '/visitor-counter.php';
 ?>
