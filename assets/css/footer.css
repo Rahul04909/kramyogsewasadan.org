@@ -155,7 +155,7 @@
 }
 
 
-/* --- COLUMN 5: CERTIFICATIONS --- */
+/* --- COLUMN 5: CERTIFICATIONS & QR CODE --- */
 .footer-certifications {
   display: flex;
   flex-direction: column;
@@ -168,6 +168,54 @@
   display: block;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
+}
+
+/* Footer QR Code Card */
+.footer-qr-card {
+  margin-top: 18px;
+  background-color: #ffffff;
+  border: 1px solid #1b5182;
+  border-radius: 6px;
+  padding: 8px 10px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  width: 115px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-qr-header {
+  font-size: 10px;
+  font-weight: 700;
+  color: #1b5182;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  letter-spacing: 0.3px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-qr-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  transition: transform var(--transition-speed);
+}
+
+.footer-qr-img:hover {
+  transform: scale(1.03);
+}
+
+.footer-qr-subtext {
+  font-size: 8.5px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-top: 5px;
+  word-break: break-all;
 }
 
 

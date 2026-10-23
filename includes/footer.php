@@ -94,15 +94,26 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
       </ul>
     </div>
 
-    <!-- Column 5: Certifications -->
+    <!-- Column 5: Certifications & Donation QR -->
     <div class="footer-certifications">
       <a href="<?php echo $footer_base_url; ?>pages/certifications.php">
         <img src="<?php echo $footer_base_url; ?>assets/GPTW_Logo.png" alt="Great Place to Work Certified" class="gptw-logo-img" loading="lazy">
       </a>
-      <div style="margin-top: 12px; text-align: center;">
+      <div style="margin-top: 10px; text-align: center;">
         <a href="<?php echo $footer_base_url; ?>pages/certifications.php" class="footer-link" style="font-weight: 700; color: #1b5182; font-size: 13px; display: inline-flex; align-items: center; gap: 5px;">
           <i class="fa-solid fa-award"></i> View All Certifications <i class="fa-solid fa-arrow-right"></i>
         </a>
+      </div>
+
+      <!-- QR Code for UPI Donations -->
+      <div class="footer-qr-card">
+        <div class="footer-qr-header">
+          <i class="fa-solid fa-qrcode"></i> Scan to Donate
+        </div>
+        <a href="<?php echo $footer_base_url; ?>assets/images/qr.jpeg" target="_blank" title="Scan or Click to view QR Code">
+          <img src="<?php echo $footer_base_url; ?>assets/images/qr.jpeg" alt="UPI Scan and Pay QR Code - Kram Yog Sewa Sadan" class="footer-qr-img" loading="lazy">
+        </a>
+        <div class="footer-qr-subtext">UPI: 9671413639m@pnb</div>
       </div>
     </div>
 

@@ -66,26 +66,14 @@
           </div>
 
           <!-- Trustee 2 -->
-          <div style="background: #f8f9fa; border-left: 4px solid #1b5182; padding: 20px; border-radius: 4px; display: flex; gap: 20px; align-items: flex-start;">
-            <div style="font-size: 2.5rem; color: #1b5182; background: #e2e8f0; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 50%; flex-shrink: 0;">
-              <i class="fas fa-user-astronaut"></i>
+          <div style="background: #f8f9fa; border-left: 4px solid #1b5182; padding: 20px; border-radius: 8px; display: flex; gap: 20px; align-items: flex-start;">
+            <div style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 2px solid #13a34a; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+              <img src="../assets/images/manager.jpeg" alt="Mr. Pawan Kumar - Aashram Manager" style="width: 100%; height: 100%; object-fit: cover; object-position: center 20%;">
             </div>
             <div>
-              <h3 style="margin: 0; font-size: 1.2rem; font-weight: 700; color: #2c3e50;">Mrs. Anita Sen</h3>
-              <p style="margin: 3px 0 10px; font-weight: 600; font-size: 0.85rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px;">Trustee &amp; Director of Women Empowerment</p>
-              <p style="margin: 0; color: #4a5568; font-size: 0.95rem; line-height: 1.6;">A vocational educator and entrepreneur, Mrs. Sen designs and monitors our tailoring workshops, vocational skilling grants, and self-help cooperative alliances, turning local women into micro-business leaders.</p>
-            </div>
-          </div>
-
-          <!-- Trustee 3 -->
-          <div style="background: #f8f9fa; border-left: 4px solid #1b5182; padding: 20px; border-radius: 4px; display: flex; gap: 20px; align-items: flex-start;">
-            <div style="font-size: 2.5rem; color: #1b5182; background: #e2e8f0; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 50%; flex-shrink: 0;">
-              <i class="fas fa-user-gear"></i>
-            </div>
-            <div>
-              <h3 style="margin: 0; font-size: 1.2rem; font-weight: 700; color: #2c3e50;">Mr. Sunil Rao</h3>
-              <p style="margin: 3px 0 10px; font-weight: 600; font-size: 0.85rem; color: #718096; text-transform: uppercase; letter-spacing: 0.5px;">Executive Trustee &amp; Auditor</p>
-              <p style="margin: 0; color: #4a5568; font-size: 0.95rem; line-height: 1.6;">Mr. Rao has a background in public administration auditing. He oversees financial tracking, regulatory legal compliance (80G certification), database audit logs, and digital payments workflow security.</p>
+              <h3 style="margin: 0; font-size: 1.25rem; font-weight: 700; color: #2c3e50;">Mr. Pawan Kumar</h3>
+              <p style="margin: 3px 0 10px; font-weight: 600; font-size: 0.85rem; color: #13a34a; text-transform: uppercase; letter-spacing: 0.5px;">Aashram Manager</p>
+              <p style="margin: 0; color: #4a5568; font-size: 0.95rem; line-height: 1.6;">Mr. Pawan Kumar serves as the dedicated Aashram Manager at Kram Yog Sewa Sadan, overseeing daily operations, resident welfare, shelter management, and community outreach programs.</p>
             </div>
           </div>
 
