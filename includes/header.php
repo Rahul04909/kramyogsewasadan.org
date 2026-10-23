@@ -8,7 +8,8 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
     $base_url = substr($request_uri, 0, strpos($request_uri, 'gloabl-rise') + strlen('gloabl-rise')) . '/';
 } else {
     $base_url = '/';
-}
+// Include official visitor counter engine
+require_once __DIR__ . '/visitor-counter.php';
 ?>
 <!-- Header Component -->
 <header class="site-header">
@@ -23,6 +24,9 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
         <i class="fa-solid fa-phone"></i>
         +91 9671413639
       </a>
+      <div class="top-bar-visitor-badge" title="Official Verified Visitors">
+        <i class="fa-solid fa-eye"></i> Visitors: <strong><?php echo htmlspecialchars($kyss_visitor_count_formatted); ?></strong>
+      </div>
     </div>
   </div>
 

@@ -40,6 +40,9 @@
   
   <!-- Welcome Brochure Pop-Up Stylesheet -->
   <link rel="stylesheet" href="assets/css/welcome-popup.css">
+
+  <!-- Live Community Trust & Visitor Counter Stylesheet -->
+  <link rel="stylesheet" href="assets/css/visitor-counter.css">
   
   <!-- Base styling for index page preview -->
   <style>
@@ -87,6 +90,9 @@
 
   <!-- Call the Latest Updates Blog Slider Component -->
   <?php include 'components/latest-updates.php'; ?>
+
+  <!-- Call the Live Community Trust & Visitor Counter Component -->
+  <?php include 'components/visitor-counter-bar.php'; ?>
 
   <!-- Call the Footer Component -->
   <?php include 'includes/footer.php'; ?>

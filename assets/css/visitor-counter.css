@@ -1,0 +1,292 @@
+/* ==========================================================================
+   Live Community Trust & Website Visitor Counter Stylesheet
+   Kram Yog Sewa Sadan Trust
+   ========================================================================== */
+
+.trust-counter-section {
+  background: linear-gradient(135deg, #0d2842 0%, #1b5182 60%, #15456f 100%);
+  color: #ffffff;
+  padding: 48px 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Subtle decorative backdrop glow */
+.trust-counter-section::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(19, 163, 74, 0.22) 0%, rgba(19, 163, 74, 0) 70%);
+  pointer-events: none;
+}
+
+.trust-counter-section .header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.trust-counter-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+/* Left Column: Mission & Trust text */
+.trust-counter-left {
+  flex: 1;
+  min-width: 320px;
+}
+
+.trust-live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #a7f3d0;
+  margin-bottom: 14px;
+}
+
+.pulse-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #10b981;
+  display: inline-block;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+.trust-counter-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+}
+
+.trust-counter-title span {
+  color: #34d399;
+}
+
+.trust-counter-desc {
+  font-size: 13.5px;
+  color: #e2e8f0;
+  line-height: 1.6;
+  max-width: 540px;
+  margin-bottom: 18px;
+}
+
+.trust-pills-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.trust-mini-pill {
+  font-size: 11.5px;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 5px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.trust-mini-pill i {
+  color: #34d399;
+}
+
+/* Right Column: Digital Odometer Display Card */
+.trust-counter-right {
+  background: rgba(10, 26, 44, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  padding: 22px 28px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.odometer-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #93c5fd;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.odometer-label i {
+  color: #34d399;
+}
+
+/* Flip / Odometer Digit Tiles */
+.odometer-digits-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.odometer-digit-box {
+  width: 42px;
+  height: 54px;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 50%, #0b1120 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.15), 0 4px 10px rgba(0, 0, 0, 0.4);
+  position: relative;
+  text-shadow: 0 0 10px rgba(52, 211, 153, 0.6);
+}
+
+/* Middle crease across odometer tiles */
+.odometer-digit-box::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.odometer-footnote {
+  font-size: 11px;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.odometer-footnote i {
+  color: #10b981;
+}
+
+/* Top bar badge styling */
+.top-bar-visitor-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 3px 10px;
+  border-radius: 14px;
+  margin-left: 14px;
+  font-weight: 500;
+}
+
+.top-bar-visitor-badge strong {
+  color: #a7f3d0;
+  font-weight: 700;
+}
+
+/* Footer info bar counter styling */
+.footer-visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-weight: 600;
+  font-size: 11.5px;
+}
+
+.footer-visitor-counter i {
+  color: #1b5182;
+}
+
+.footer-visitor-counter strong {
+  color: #1b5182;
+  font-weight: 700;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 900px) {
+  .trust-counter-grid {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  .trust-counter-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .trust-counter-desc {
+    max-width: 100%;
+  }
+  .trust-pills-row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .trust-counter-section {
+    padding: 36px 0;
+  }
+  .trust-counter-title {
+    font-size: 1.4rem;
+  }
+  .odometer-digit-box {
+    width: 34px;
+    height: 44px;
+    font-size: 24px;
+    border-radius: 6px;
+  }
+  .trust-counter-right {
+    padding: 16px 18px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

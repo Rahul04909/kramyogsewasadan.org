@@ -232,6 +232,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer-visitor-counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #555555;
+  font-weight: 600;
+  font-size: 11.5px;
+  background: #ffffff;
+  padding: 3px 12px;
+  border-radius: 14px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.footer-visitor-counter i {
+  color: #1b5182;
+}
+
+.footer-visitor-counter strong {
+  color: #13a34a;
+  font-weight: 700;
 }
 
 

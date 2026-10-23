@@ -9,6 +9,9 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
 } else {
     $footer_base_url = '/';
 }
+
+// Include official visitor counter engine
+require_once __DIR__ . '/visitor-counter.php';
 ?>
 <!-- Footer Component -->
 <footer class="site-footer">
@@ -123,6 +126,7 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
   <div class="footer-info-bar">
     <div class="header-container">
       <span>Trust Reg No : 10394 | PAN : AAGTK3826Q</span>
+      <span class="footer-visitor-counter"><i class="fa-solid fa-chart-line"></i> Total Visitors: <strong><?php echo htmlspecialchars($kyss_visitor_count_formatted); ?></strong></span>
       <span>Kram Yog Sewa Sadan &copy; 2026 | A Website Designed By <a href="#" target="_blank" style="color: #666666; text-decoration: none; font-weight: 600;" onmouseover="this.style.color='#1b5182'" onmouseout="this.style.color='#666666'">Rahul Dhiman | +91 80599 82049</a></span>
     </div>
   </div>

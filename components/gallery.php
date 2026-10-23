@@ -28,8 +28,7 @@ $gallery_items = [
         'category'    => 'elder-care',
         'category_name' => 'Elder Care & Ashram',
         'tag_icon'    => 'fa-house-chimney-heart',
-        'caption'     => 'Our resident senior citizens, trustees, and children gathering in the ashram garden courtyard for fruits, sweets, and heartfelt conversations.',
-        'featured'    => true
+        'caption'     => 'Our resident senior citizens, trustees, and children gathering in the ashram garden courtyard for fruits, sweets, and heartfelt conversations.'
     ],
     [
         'id'          => 2,
@@ -38,8 +37,7 @@ $gallery_items = [
         'category'    => 'rescue',
         'category_name' => 'Rescue & Outreach',
         'tag_icon'    => 'fa-truck-medical',
-        'caption'     => 'Coordinated street rescue operation conducted with local police authorities and our ashram vehicle to provide emergency rehabilitation.',
-        'featured'    => false
+        'caption'     => 'Coordinated street rescue operation conducted with local police authorities and our ashram vehicle to provide emergency rehabilitation.'
     ],
     [
         'id'          => 3,
@@ -48,8 +46,7 @@ $gallery_items = [
         'category'    => 'rescue',
         'category_name' => 'Rescue & Outreach',
         'tag_icon'    => 'fa-hand-holding-heart',
-        'caption'     => 'Trust social workers conducting compassionate counseling, health evaluation, and intake verification for a destitute person.',
-        'featured'    => false
+        'caption'     => 'Trust social workers conducting compassionate counseling, health evaluation, and intake verification for a destitute person.'
     ],
     [
         'id'          => 4,
@@ -58,8 +55,7 @@ $gallery_items = [
         'category'    => 'elder-care',
         'category_name' => 'Elder Care & Ashram',
         'tag_icon'    => 'fa-heart',
-        'caption'     => 'Offering immediate drinking water, care, and shelter transition for an elderly destitute woman found in distress.',
-        'featured'    => false
+        'caption'     => 'Offering immediate drinking water, care, and shelter transition for an elderly destitute woman found in distress.'
     ],
     [
         'id'          => 5,
@@ -68,8 +64,7 @@ $gallery_items = [
         'category'    => 'rescue',
         'category_name' => 'Rescue & Outreach',
         'tag_icon'    => 'fa-shield-halved',
-        'caption'     => 'Rescuing a sick and destitute man from roadside vulnerability with police support, ensuring immediate hospital care and admission.',
-        'featured'    => false
+        'caption'     => 'Rescuing a sick and destitute man from roadside vulnerability with police support, ensuring immediate hospital care and admission.'
     ],
     [
         'id'          => 6,
@@ -78,8 +73,7 @@ $gallery_items = [
         'category'    => 'community',
         'category_name' => 'Community & Events',
         'tag_icon'    => 'fa-award',
-        'caption'     => 'Kram Yog Sewa Sadan Trust felicitation ceremony at Kurukshetra, Haryana, honoring dedicated frontline volunteers and community leaders.',
-        'featured'    => false
+        'caption'     => 'Kram Yog Sewa Sadan Trust felicitation ceremony at Kurukshetra, Haryana, honoring dedicated frontline volunteers and community leaders.'
     ],
     [
         'id'          => 7,
@@ -88,8 +82,7 @@ $gallery_items = [
         'category'    => 'community',
         'category_name' => 'Community & Events',
         'tag_icon'    => 'fa-seedling',
-        'caption'     => 'Trustees, volunteers, and local dignitaries planting saplings to protect nature and advance Swachh & Green Bharat goals.',
-        'featured'    => false
+        'caption'     => 'Trustees, volunteers, and local dignitaries planting saplings to protect nature and advance Swachh & Green Bharat goals.'
     ],
     [
         'id'          => 8,
@@ -98,8 +91,7 @@ $gallery_items = [
         'category'    => 'community',
         'category_name' => 'Community & Events',
         'tag_icon'    => 'fa-om',
-        'caption'     => 'Joyous community celebrations, receiving blessings of revered saints, and nurturing cultural values with youth and elders.',
-        'featured'    => true
+        'caption'     => 'Joyous community celebrations, receiving blessings of revered saints, and nurturing cultural values with youth and elders.'
     ]
 ];
 ?>
@@ -111,7 +103,7 @@ $gallery_items = [
     <!-- Section Header -->
     <div class="gallery-section-header">
       <div class="gallery-badge">
-        <i class="fa-solid fa-camera-retro"></i> Field Action & Real Impact
+        <i class="fa-solid fa-camera-retro"></i> Field Action &amp; Real Impact
       </div>
       <h2 class="gallery-section-title">Glimpses of Our Seva</h2>
       <p class="gallery-section-subtitle">
@@ -125,13 +117,13 @@ $gallery_items = [
         <i class="fa-solid fa-border-all"></i> All Moments (8)
       </button>
       <button class="gallery-filter-btn" data-filter="elder-care" role="tab" aria-selected="false">
-        <i class="fa-solid fa-house-chimney-heart"></i> Elder Care & Ashram (2)
+        <i class="fa-solid fa-house-chimney-heart"></i> Elder Care &amp; Ashram (2)
       </button>
       <button class="gallery-filter-btn" data-filter="rescue" role="tab" aria-selected="false">
-        <i class="fa-solid fa-truck-medical"></i> Rescue & Outreach (3)
+        <i class="fa-solid fa-truck-medical"></i> Rescue &amp; Outreach (3)
       </button>
       <button class="gallery-filter-btn" data-filter="community" role="tab" aria-selected="false">
-        <i class="fa-solid fa-users"></i> Community & Events (3)
+        <i class="fa-solid fa-users"></i> Community &amp; Events (3)
       </button>
     </div>
 
@@ -141,7 +133,7 @@ $gallery_items = [
         <?php 
           $img_src = $gallery_base_url . $item['image'];
         ?>
-        <article class="gallery-card <?php echo $item['featured'] ? 'featured-span' : ''; ?>" 
+        <article class="gallery-card" 
                  data-category="<?php echo htmlspecialchars($item['category']); ?>"
                  data-index="<?php echo $index; ?>"
                  tabindex="0"
@@ -171,9 +163,9 @@ $gallery_items = [
             <p class="gallery-card-desc"><?php echo htmlspecialchars($item['caption']); ?></p>
             <div class="gallery-card-footer">
               <span class="gallery-view-link">
-                <i class="fa-regular fa-image"></i> Click to Enlarge
+                <i class="fa-solid fa-expand"></i> View Full Photo
               </span>
-              <span style="color:#94a3b8; font-size:11px;">Kram Yog Sewa Sadan</span>
+              <span class="gallery-trust-tag"><i class="fa-solid fa-shield-heart"></i> KYSS Seva</span>
             </div>
           </div>
 
