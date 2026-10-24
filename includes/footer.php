@@ -36,7 +36,7 @@ require_once __DIR__ . '/visitor-counter.php';
         <div class="footer-bank-title"><i class="fa-solid fa-building-columns"></i> Bank Account Details</div>
         <div class="footer-bank-details">
           <div><span>A/C Name:</span> Kram Yog Seva Sadan Trust</div>
-          <div><span>Bank Name:</span> HDFC Bank</div>
+          <div><span>Bank Name:</span>Punjab National Bank</div>
           <div><span>A/C No:</span> 1409102100002093</div>
           <div><span>IFSC Code:</span>PUNB014091</div>
           <div><span>Branch:</span> sonipat, haryana</div>
