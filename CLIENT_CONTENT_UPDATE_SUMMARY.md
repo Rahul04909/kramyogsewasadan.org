@@ -157,4 +157,19 @@ All updates strictly adhere to the official details:
 - **Potential Collaboration Areas:** Senior citizen welfare & residential care, Education for underprivileged children, Healthcare awareness & diagnostic camps, Vocational training & livelihood support, Disability rehabilitation & inclusion, Community welfare & sanitation.
 - **Corporate Advantages & Reporting:** Audited fund utilization reporting, direct grassroots implementation, and employee volunteering engagement.
 
+---
+
+## 6. Our Core Areas of Work Images & Trust Branding
+
+- **Custom Generated High-Quality Trust Images:**
+  - **Old Age Welfare:** [`assets/images/kyss_senior_welfare.jpg`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/kyss_senior_welfare.jpg) — Authentic Indian ashram hall with official wall signboard *कर्म योग सेवा सदन ट्रस्ट* and senior citizens sharing tea with caring staff.
+  - **Health & Well-being:** [`assets/images/kyss_health_camp.jpg`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/kyss_health_camp.jpg) — On-ground free community diagnostic medical camp displaying official banner *KARM YOG SEWA SADAN TRUST - Free Health Checkup Camp*.
+  - **Disability Rehabilitation:** [`assets/images/kyss_disab_rehab.jpg`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/kyss_disab_rehab.jpg) — Inclusive mobility center with official banner *KARM YOG SEWA SADAN TRUST - Disability Inclusion and Rehabilitation*.
+  - **Education for All:** [`assets/images/rural_education.png`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/rural_education.png) — Clean classroom with Indian children happily studying and participating.
+  - **Vocational Training:** [`assets/images/women_empowerment.png`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/women_empowerment.png) — Indian women in tailoring workshop learning vocational self-reliance trades.
+  - **Women & Family Welfare:** [`assets/images/senior_care.png`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/senior_care.png) — Compassionate community volunteer holding hands with an Indian mother/elderly lady.
+  - **Community Development:** [`assets/images/swachh_bharat.png`](file:///c:/xampp/htdocs/kramyogsewasadan.org/assets/images/swachh_bharat.png) — Civic cleanliness volunteers driving Swachh Bharat community sanitation.
+- **Card-Level Trust Badge Overlay:** Added `<span class="core-kyss-label"><i class="fa-solid fa-hands-holding-heart"></i> कर्म योग सेवा सदन</span>` overlay across every card to guarantee cohesive Trust branding.
+
+
 

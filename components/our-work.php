@@ -15,56 +15,56 @@ $core_programmes = [
     [
         'title' => 'Old Age Welfare',
         'desc' => 'Promoting dignity, care, safety and social participation for senior citizens.',
-        'image' => '',
-        'alt' => 'Old Age Welfare and Senior Care',
+        'image' => 'assets/images/kyss_senior_welfare.jpg',
+        'alt' => 'Karm Yog Sewa Sadan Trust Old Age Welfare and Senior Care',
         'link' => 'pages/old-age-home.php',
         'tag' => 'Elders Care'
     ],
     [
         'title' => 'Health & Well-being',
         'desc' => 'Supporting health awareness, medical camps and preventive healthcare initiatives.',
-        'image' => '',
-        'alt' => 'Healthcare and Medical Check-up Camps',
+        'image' => 'assets/images/kyss_health_camp.jpg',
+        'alt' => 'Karm Yog Sewa Sadan Trust Healthcare and Medical Check-up Camps',
         'link' => 'pages/health-projects.php',
         'tag' => 'Healthcare'
     ],
     [
         'title' => 'Disability Rehabilitation',
         'desc' => 'Promoting rehabilitation, accessibility, inclusion and participation.',
-        'image' => '',
-        'alt' => 'Disability Inclusion and Support',
+        'image' => 'assets/images/kyss_disab_rehab.jpg',
+        'alt' => 'Karm Yog Sewa Sadan Trust Disability Inclusion and Rehabilitation',
         'link' => 'pages/persons-with-disabilities.php',
         'tag' => 'Inclusion'
     ],
     [
         'title' => 'Education for All',
         'desc' => 'Supporting educational opportunities, reading facilities and assistance for disadvantaged learners.',
-        'image' => '',
-        'alt' => 'Education for Underprivileged Children',
+        'image' => 'assets/images/rural_education.png',
+        'alt' => 'Karm Yog Sewa Sadan Trust Education for Underprivileged Children',
         'link' => 'pages/rural-children-education.php',
         'tag' => 'Learning'
     ],
     [
         'title' => 'Vocational Training',
         'desc' => 'Encouraging skills development, livelihood opportunities and productive engagement.',
-        'image' => '',
-        'alt' => 'Vocational Skills and Livelihood Training',
-        'link' => 'pages/women-empowerment.php',
+        'image' => 'assets/images/women_empowerment.png',
+        'alt' => 'Karm Yog Sewa Sadan Trust Vocational Skills and Livelihood Training',
+        'link' => 'pages/vocational-training.php',
         'tag' => 'Livelihood'
     ],
     [
         'title' => 'Women & Family Welfare',
         'desc' => 'Promoting women\'s education, family well-being and social awareness.',
-        'image' => '',
-        'alt' => 'Women and Family Welfare Programmes',
+        'image' => 'assets/images/senior_care.png',
+        'alt' => 'Karm Yog Sewa Sadan Trust Women and Family Welfare Programmes',
         'link' => 'pages/women-empowerment.php',
         'tag' => 'Empowerment'
     ],
     [
         'title' => 'Community Development',
         'desc' => 'Encouraging social harmony, environmental responsibility and community participation.',
-        'image' => '',
-        'alt' => 'Community Welfare and Environmental Action',
+        'image' => 'assets/images/swachh_bharat.png',
+        'alt' => 'Karm Yog Sewa Sadan Trust Community Welfare and Environmental Action',
         'link' => 'pages/swacch-bharat-mission.php',
         'tag' => 'Harmony'
     ]
@@ -91,6 +91,7 @@ $core_programmes = [
                  class="core-card-img" 
                  loading="lazy">
             <span class="core-card-tag"><?php echo htmlspecialchars($prog['tag']); ?></span>
+            <span class="core-kyss-label"><i class="fa-solid fa-hands-holding-heart"></i> कर्म योग सेवा सदन</span>
           </div>
           <div class="core-card-body">
             <h3 class="core-card-title"><?php echo htmlspecialchars($prog['title']); ?></h3>
