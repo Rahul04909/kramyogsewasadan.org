@@ -86,7 +86,7 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/health_projects.png" alt="Free medical camp doctors providing healthcare to rural and underserved communities in India" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/kyss_senior_welfare.jpg" alt="Free medical camp doctors providing healthcare to rural and underserved communities in India" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
