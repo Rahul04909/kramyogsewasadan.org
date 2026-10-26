@@ -177,15 +177,27 @@
           </div>
         </div>
 
-        <!-- 4. Women Empowerment -->
+        <!-- 4. Women & Family Welfare -->
         <div class="initiative-card">
           <div class="initiative-card-img-wrapper">
-            <img src="../assets/images/women_empowerment.png" alt="Women Empowerment" class="initiative-card-img" loading="lazy">
+            <img src="../assets/images/women_empowerment.png" alt="Women and Family Welfare" class="initiative-card-img" loading="lazy">
           </div>
           <div class="initiative-card-content">
-            <h3>Women Empowerment</h3>
-            <p>Enabling financial self-reliance through vocational training (such as tailoring, design), micro-grants, and entrepreneurship mentoring.</p>
+            <h3>Women &amp; Family Welfare</h3>
+            <p>Supporting women's education, family well-being, awareness programs, and community participation for stronger households.</p>
             <a href="women-empowerment.php" class="initiative-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- 4b. Vocational Training and Livelihood Support -->
+        <div class="initiative-card">
+          <div class="initiative-card-img-wrapper">
+            <img src="../assets/images/women_empowerment.png" alt="Vocational Training and Livelihood Support" class="initiative-card-img" loading="lazy">
+          </div>
+          <div class="initiative-card-content">
+            <h3>Vocational Training &amp; Livelihoods</h3>
+            <p>Skills for independence. Practical trades, life skills, employability coaching, and livelihood development for disadvantaged individuals.</p>
+            <a href="vocational-training.php" class="initiative-card-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
 
@@ -280,12 +292,13 @@
         <h3>Our Programs</h3>
         <ul class="sidebar-links-list">
           <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Old Age Home Service</a></li>
-          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
-          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
+          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Old Age Welfare</a></li>
+          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Healthcare Assistance</a></li>
+          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Disability Rehabilitation</a></li>
+          <li><a href="vocational-training.php"><i class="fa-solid fa-angle-right"></i> Vocational Training</a></li>
+          <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women &amp; Family Welfare</a></li>
           <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
           <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
-          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
-          <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women Empowerment</a></li>
           <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
           <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
           <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>

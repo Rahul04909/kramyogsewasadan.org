@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Healthcare & Medical Projects | Kram Yog Sewa Sadan</title>
-  <meta name="description" content="Discover how Kram Yog Sewa Sadan organizes free medical camps, primary health clinics, and medicine distribution programs in rural India.">
+  <title>Healthcare & Medical Assistance | Karm Yog Sewa Sadan Trust</title>
+  <meta name="description" content="Karm Yog Sewa Sadan Trust promotes health awareness and access to appropriate healthcare through medical check-up camps, healthy ageing awareness, and qualified partnerships.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -15,8 +15,47 @@
   <link rel="stylesheet" href="../assets/css/footer.css">
   
   <style>
-    body {
-      background-color: #ffffff;
+    body { background-color: #ffffff; }
+    .initiative-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #13a34a;
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      transition: all 0.25s ease;
+    }
+    .initiative-card:hover {
+      box-shadow: 0 4px 15px rgba(19, 163, 74, 0.08);
+      border-color: #cbd5e1;
+    }
+    .initiative-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(19, 163, 74, 0.1);
+      color: #13a34a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .initiative-content h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 0 0 6px 0;
+    }
+    .initiative-content p {
+      font-size: 0.95rem;
+      color: #556980;
+      line-height: 1.55;
+      margin: 0;
     }
   </style>
 </head>
@@ -26,16 +65,16 @@
   <?php include '../includes/header.php'; ?>
 
   <!-- Page Hero Section -->
-  <section class="initiative-hero" aria-label="Initiative Banner">
+  <section class="initiative-hero" aria-label="Healthcare Banner">
     <div class="header-container">
       <nav class="initiative-breadcrumbs" aria-label="Breadcrumb">
         <a href="../index.php">Home</a>
         <span class="separator">></span>
-        <span>What We Do</span>
+        <a href="what-we-do.php">Our Services</a>
         <span class="separator">></span>
-        <span style="color: #ffffff;">Health Projects</span>
+        <span style="color: #ffffff;">Healthcare & Medical Assistance</span>
       </nav>
-      <h1 class="initiative-title">Healthcare & Medical Projects</h1>
+      <h1 class="initiative-title">Healthcare and Medical Assistance</h1>
     </div>
   </section>
 
@@ -51,29 +90,65 @@
       </div>
 
       <section class="initiative-content-block">
-        <h2>Overview</h2>
-        <p>A healthy community is a thriving community. However, in rural villages and urban slums across India, thousands of people suffer from preventable illnesses due to a lack of basic healthcare facilities, awareness, and affordable medical resources. Kram Yog Sewa Sadan's Health Projects are designed to bridge this gap by bringing essential primary healthcare directly to remote, marginalized, and underserved areas.</p>
-        <p>Through partnerships with professional doctors, government healthcare networks, and medical volunteers, we establish regular diagnostic clinics and checkup camps to identify, prevent, and treat core health concerns early.</p>
+        <h2>Promoting Health Awareness & Preventive Medical Care</h2>
+        <p>The Trust aims to promote health awareness and access to appropriate healthcare through charitable activities and collaboration with qualified professionals.</p>
+        <p>By bringing regular diagnostic health screenings, medical consultation camps, and awareness on geriatric care to disadvantaged communities, Karm Yog Sewa Sadan Trust strives to ensure no vulnerable individual suffers from lack of basic medical attention.</p>
       </section>
 
+      <!-- Potential Initiatives Section per Client Spec -->
       <section class="initiative-content-block">
-        <h2>Key Projects</h2>
-        <ul class="initiative-bullet-list">
-          <li><strong>Primary Healthcare Camps:</strong> Setting up localized medical checkup camps offering free general consultations, blood pressure checks, diabetes screenings, and diagnostic panels.</li>
-          <li><strong>Medicine & Treatment Distribution:</strong> Providing free prescription medicines, nutritional supplements, and deworming tablets to children and mothers.</li>
-          <li><strong>Maternal & Child Wellness:</strong> Conducting specialized pediatric and maternal wellness workshops, focusing on prenatal nutrition, safe delivery practices, and infant immunizations.</li>
-          <li><strong>Hygiene & Sanitization Campaigns:</strong> Raising awareness about clean water practices, personal hygiene, dental care, and vector-borne disease prevention.</li>
-        </ul>
+        <h2>Potential Initiatives & Program Areas</h2>
+        
+        <!-- 1. Community Medical Camps -->
+        <div class="initiative-card">
+          <div class="initiative-icon"><i class="fa-solid fa-hospital-user"></i></div>
+          <div class="initiative-content">
+            <h3>Community Medical Camps</h3>
+            <p>Organising on-ground general healthcare check-up camps offering free consultations, vital measurements, and diagnostic triage in underserved rural and semi-urban settlements.</p>
+          </div>
+        </div>
+
+        <!-- 2. Health Screening & Check-up Programmes -->
+        <div class="initiative-card">
+          <div class="initiative-icon"><i class="fa-solid fa-stethoscope"></i></div>
+          <div class="initiative-content">
+            <h3>Health Screening and Check-up Programmes</h3>
+            <p>Periodic diagnostic check-ups focusing on chronic conditions including hypertension, diabetes screening, eye care, dental health, and basic pathology panels.</p>
+          </div>
+        </div>
+
+        <!-- 3. Awareness About Healthy Ageing -->
+        <div class="initiative-card">
+          <div class="initiative-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="initiative-content">
+            <h3>Awareness About Healthy Ageing</h3>
+            <p>Dedicated educational sessions addressing geriatric nutrition, arthritis care, cognitive health, fall prevention, and holistic lifestyle practices for senior citizens.</p>
+          </div>
+        </div>
+
+        <!-- 4. Preventive Healthcare Education -->
+        <div class="initiative-card">
+          <div class="initiative-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <div class="initiative-content">
+            <h3>Preventive Healthcare Education</h3>
+            <p>Conducting community workshops on sanitation, clean drinking water practices, maternal and child wellness, seasonal disease prevention, and immunization awareness.</p>
+          </div>
+        </div>
+
+        <!-- 5. Referral Information for Medical Services -->
+        <div class="initiative-card">
+          <div class="initiative-icon"><i class="fa-solid fa-hand-holding-medical"></i></div>
+          <div class="initiative-content">
+            <h3>Referral Information for Appropriate Medical Services</h3>
+            <p>Guiding and connecting patients requiring advanced treatments or surgical interventions to verified public hospitals, specialized dispensaries, and welfare medical schemes.</p>
+          </div>
+        </div>
+
       </section>
 
       <div class="initiative-quote-box">
-        <p>"Access to primary healthcare is a fundamental right. By bringing doctors and free medications directly to remote villages, Kram Yog Sewa Sadan is ensuring that geographical isolation doesn't prevent basic healing."</p>
+        <p>“Good health is the foundation of human dignity. By combining preventive awareness with accessible medical camps, we work to build healthier, more resilient communities.”</p>
       </div>
-
-      <section class="initiative-content-block">
-        <h2>Our Impact</h2>
-        <p>Our healthcare initiatives have successfully treated over 12,000 patients in rural and suburban communities. Through early diagnostics at our primary camps, we have referred hundreds of high-risk conditions to specialty state hospitals, saving lives and reducing medical debts for low-income families.</p>
-      </section>
 
     </article>
 
@@ -82,24 +157,23 @@
       
       <!-- Donation Appeal Card -->
       <section class="sidebar-cta-card">
-        <h3>Support Healthcare Projects</h3>
-        <p>Your contribution funds diagnostic medical kits, primary clinic checkups, and free medicines for patients in rural communities.</p>
+        <h3>Support Healthcare Work</h3>
+        <p>Your contribution funds diagnostic medical camps, health check-up kits, and preventive medicine assistance for vulnerable families.</p>
         <a href="../donate.php" class="sidebar-cta-button">Donate Now</a>
       </section>
 
       <!-- Sidebar Navigation Menu -->
       <nav class="sidebar-links-card" aria-label="Other Causes Links">
-        <h3>Our Work</h3>
+        <h3>Our Services</h3>
         <ul class="sidebar-links-list">
-          <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
-          <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>
-          <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
-          <li><a href="health-projects.php" style="color: #1b5182;"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
-          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
+          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Old Age Welfare</a></li>
+          <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Residential Care</a></li>
+          <li><a href="health-projects.php" style="color: #1b5182; font-weight: 700;"><i class="fa-solid fa-angle-right"></i> Healthcare Assistance</a></li>
+          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Disability Rehabilitation</a></li>
+          <li><a href="vocational-training.php"><i class="fa-solid fa-angle-right"></i> Vocational Training</a></li>
+          <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women & Family Welfare</a></li>
           <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
-          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
-          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
-          <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women Empowerment</a></li>
+          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Community Welfare</a></li>
         </ul>
       </nav>
 

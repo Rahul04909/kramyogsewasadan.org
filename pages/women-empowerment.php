@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Women Empowerment Initiatives | Kram Yog Sewa Sadan</title>
-  <meta name="description" content="Discover how Kram Yog Sewa Sadan empowers rural and low-income women in India through vocational sewing workshops and financial literacy courses.">
+  <title>Women & Family Welfare | Karm Yog Sewa Sadan Trust</title>
+  <meta name="description" content="Supporting Families. Strengthening Communities. Karm Yog Sewa Sadan Trust promotes women's education, family welfare, social well-being, and community inclusion.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -15,8 +15,57 @@
   <link rel="stylesheet" href="../assets/css/footer.css">
   
   <style>
-    body {
-      background-color: #ffffff;
+    body { background-color: #ffffff; }
+    .wfw-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #db2777;
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      transition: all 0.25s ease;
+    }
+    .wfw-card:hover {
+      box-shadow: 0 4px 15px rgba(219, 39, 119, 0.08);
+      border-color: #cbd5e1;
+    }
+    .wfw-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: rgba(219, 39, 119, 0.1);
+      color: #db2777;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.15rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .wfw-content h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 0 0 6px 0;
+    }
+    .wfw-content p {
+      font-size: 0.95rem;
+      color: #556980;
+      line-height: 1.55;
+      margin: 0;
+    }
+    .framework-note {
+      background: #fffbeb;
+      border: 1px dashed #f59e0b;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-top: 24px;
+      color: #92400e;
+      font-size: 0.92rem;
+      line-height: 1.6;
     }
   </style>
 </head>
@@ -26,16 +75,16 @@
   <?php include '../includes/header.php'; ?>
 
   <!-- Page Hero Section -->
-  <section class="initiative-hero" aria-label="Initiative Banner">
+  <section class="initiative-hero" aria-label="Women Welfare Banner">
     <div class="header-container">
       <nav class="initiative-breadcrumbs" aria-label="Breadcrumb">
         <a href="../index.php">Home</a>
         <span class="separator">></span>
-        <span>What We Do</span>
+        <a href="what-we-do.php">Our Services</a>
         <span class="separator">></span>
-        <span style="color: #ffffff;">Women Empowerment</span>
+        <span style="color: #ffffff;">Women & Family Welfare</span>
       </nav>
-      <h1 class="initiative-title">Women Empowerment</h1>
+      <h1 class="initiative-title">Women and Family Welfare</h1>
     </div>
   </section>
 
@@ -47,33 +96,86 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/women_empowerment.png" alt="Women entrepreneurs and self-help group members empowered through Kram Yog Sewa Sadan's skills training programs" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/women_empowerment.png" alt="Women and family welfare empowerment programs at Karm Yog Sewa Sadan Trust" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
-        <h2>Overview</h2>
-        <p>Empowering a woman empowers an entire family and community. In rural villages and urban slum clusters across India, women face high levels of financial dependence, lack of formal skills training, and limited livelihood options. Kram Yog Sewa Sadan's Women Empowerment initiatives focus on turning dependency into economic self-reliance—equipping women with vocational skills, mentoring them in financial literacy, and supporting self-help business groups.</p>
-        <p>By providing training in sewing, design, and home-business trades, we help women build sustainable micro-incomes, ensuring they can support their children's education and health.</p>
+        <h2>Supporting Families. Strengthening Communities.</h2>
+        <p>The Trust identifies <strong>women's education, family welfare and related awareness activities</strong> among its core charitable objectives.</p>
+        <p>Strong, well-informed women and resilient families form the backbone of a caring society. Through constructive education, health literacy, and community participation, Karm Yog Sewa Sadan Trust works to nurture self-reliance, social harmony, and family well-being across disadvantaged communities.</p>
       </section>
 
+      <!-- Suggested Content Areas per Client Spec -->
       <section class="initiative-content-block">
-        <h2>Key Projects</h2>
-        <ul class="initiative-bullet-list">
-          <li><strong>Tailoring & Sewing Workshops:</strong> Running vocational training centers that teach tailoring, pattern design, and garment stitching to rural women.</li>
-          <li><strong>Financial & Business Literacy:</strong> Mentoring women on micro-savings, digital bank operations, and basic pricing models for home-grown businesses.</li>
-          <li><strong>Sewing Machine Grants:</strong> Sponsoring sewing machines for top graduates to help them start home-based alterations or tailoring shops immediately.</li>
-          <li><strong>Self-Help Group Partnerships:</strong> Helping women form collaborative local cooperatives to negotiate fabric purchasing and bulk stitching orders.</li>
-        </ul>
+        <h2>Key Programme Focus Areas</h2>
+        
+        <!-- 1. Women's Education and Awareness -->
+        <div class="wfw-card">
+          <div class="wfw-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+          <div class="wfw-content">
+            <h3>Women's Education and Awareness</h3>
+            <p>Promoting functional adult literacy, digital learning awareness, and educational encouragement for young girls and adult women to expand opportunities.</p>
+          </div>
+        </div>
+
+        <!-- 2. Family Welfare Education -->
+        <div class="wfw-card">
+          <div class="wfw-icon"><i class="fa-solid fa-people-roof"></i></div>
+          <div class="wfw-content">
+            <h3>Family Welfare Education</h3>
+            <p>Conducting workshops on balanced family nutrition, clean living environments, maternal and child wellness, and responsible social planning.</p>
+          </div>
+        </div>
+
+        <!-- 3. Community Support Activities -->
+        <div class="wfw-card">
+          <div class="wfw-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+          <div class="wfw-content">
+            <h3>Community Support Activities</h3>
+            <p>Providing direct outreach, emergency relief, and seasonal assistance for vulnerable families, widowed women, and single-parent households facing hardship.</p>
+          </div>
+        </div>
+
+        <!-- 4. Awareness About Social Well-being -->
+        <div class="wfw-card">
+          <div class="wfw-icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+          <div class="wfw-content">
+            <h3>Awareness About Social Well-being</h3>
+            <p>Fostering open discussions on mental well-being, domestic harmony, mutual respect, and peaceful coexistence within neighborhoods and homes.</p>
+          </div>
+        </div>
+
+        <!-- 5. Collaboration With Relevant Service Providers -->
+        <div class="wfw-card">
+          <div class="wfw-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <div class="wfw-content">
+            <h3>Collaboration With Relevant Service Providers</h3>
+            <p>Partnering with qualified public health centers, certified educators, counselors, and community welfare institutions to deliver impactful support programs.</p>
+          </div>
+        </div>
+
+        <!-- 6. Community Participation and Inclusion -->
+        <div class="wfw-card">
+          <div class="wfw-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="wfw-content">
+            <h3>Community Participation and Inclusion</h3>
+            <p>Encouraging women to lead community initiatives, participate in local discussions, and contribute to environmental and social improvement projects.</p>
+          </div>
+        </div>
+
+        <!-- Operational Framework Note per Client Specification -->
+        <div class="framework-note">
+          <strong><i class="fa-solid fa-circle-info"></i> Programme Framework Note:</strong>
+          <p style="margin: 6px 0 0 0;">
+            If the Trust wishes to introduce specialised women's rights, legal aid or protection services, it establishes the relevant programme framework, qualified partnerships, and referral procedures before advertising those services.
+          </p>
+        </div>
+
       </section>
 
       <div class="initiative-quote-box">
-        <p>"A self-reliant woman is a pillar of strength. By providing sewing workshops and business mentoring, Kram Yog Sewa Sadan is turning dreams of independence into secure family livelihoods."</p>
+        <p>“When a woman is educated and respected, an entire generation rises. Karm Yog Sewa Sadan Trust is dedicated to the well-being, health, and dignity of every family.”</p>
       </div>
-
-      <section class="initiative-content-block">
-        <h2>Our Impact</h2>
-        <p>Our tailoring vocational workshops have successfully trained over 2,000 women. More than 800 of our graduates have received customized sewing machine units, allowing them to earn stable home-based incomes and secure digital micro-savings accounts, directly improving their family's economic resilience.</p>
-      </section>
 
     </article>
 
@@ -82,24 +184,23 @@
       
       <!-- Donation Appeal Card -->
       <section class="sidebar-cta-card">
-        <h3>Support Women Entrepreneurs</h3>
-        <p>Your contribution funds sewing machines, vocational training kits, and micro-business mentoring workshops for women in rural villages.</p>
+        <h3>Support Family Welfare</h3>
+        <p>Your contribution funds women's literacy programs, family nutritional kits, and health awareness workshops.</p>
         <a href="../donate.php" class="sidebar-cta-button">Donate Now</a>
       </section>
 
       <!-- Sidebar Navigation Menu -->
       <nav class="sidebar-links-card" aria-label="Other Causes Links">
-        <h3>Our Work</h3>
+        <h3>Our Services</h3>
         <ul class="sidebar-links-list">
-          <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
-          <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>
-          <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
-          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
-          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
+          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Old Age Welfare</a></li>
+          <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Residential Care</a></li>
+          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Healthcare Assistance</a></li>
+          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Disability Rehabilitation</a></li>
+          <li><a href="vocational-training.php"><i class="fa-solid fa-angle-right"></i> Vocational Training</a></li>
+          <li><a href="women-empowerment.php" style="color: #1b5182; font-weight: 700;"><i class="fa-solid fa-angle-right"></i> Women & Family Welfare</a></li>
           <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
-          <li><a href="senior-citizen-care.php"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
-          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
-          <li><a href="women-empowerment.php" style="color: #1b5182;"><i class="fa-solid fa-angle-right"></i> Women Empowerment</a></li>
+          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Community Welfare</a></li>
         </ul>
       </nav>
 

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Senior Citizen Care & Support | Kram Yog Sewa Sadan</title>
-  <meta name="description" content="Discover how Kram Yog Sewa Sadan supports elderly citizens in India with monthly nutrition kits, free geriatric health checks, and shelter aid.">
+  <title>Old Age Welfare | Karm Yog Sewa Sadan Trust</title>
+  <meta name="description" content="Respecting Age. Supporting Dignity. Caring for Our Elders. Karm Yog Sewa Sadan Trust promotes the welfare and dignity of senior citizens through care, shelter, and medical support.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -15,8 +15,40 @@
   <link rel="stylesheet" href="../assets/css/footer.css">
   
   <style>
-    body {
-      background-color: #ffffff;
+    body { background-color: #ffffff; }
+    .welfare-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-left: 4px solid #1b5182;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: all 0.25s ease;
+    }
+    .welfare-card:hover {
+      box-shadow: 0 4px 15px rgba(27, 81, 130, 0.08);
+      border-color: #cbd5e1;
+    }
+    .welfare-card h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #1b5182;
+      margin: 0 0 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .welfare-card h3 i {
+      color: #13a34a;
+    }
+    .welfare-list {
+      margin: 0;
+      padding-left: 20px;
+      color: #475569;
+      line-height: 1.65;
+    }
+    .welfare-list li {
+      margin-bottom: 6px;
     }
   </style>
 </head>
@@ -31,11 +63,11 @@
       <nav class="initiative-breadcrumbs" aria-label="Breadcrumb">
         <a href="../index.php">Home</a>
         <span class="separator">></span>
-        <span>What We Do</span>
+        <a href="what-we-do.php">Our Services</a>
         <span class="separator">></span>
-        <span style="color: #ffffff;">Senior Citizen Care</span>
+        <span style="color: #ffffff;">Old Age Welfare</span>
       </nav>
-      <h1 class="initiative-title">Senior Citizen Care</h1>
+      <h1 class="initiative-title">Old Age Welfare</h1>
     </div>
   </section>
 
@@ -47,34 +79,66 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/senior_care.png" alt="Senior citizens receiving care, meals, and companionship through Kram Yog Sewa Sadan programs" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/senior_care.png" alt="Senior citizens receiving care and companionship through Karm Yog Sewa Sadan Trust" class="initiative-main-img" loading="lazy">
       </div>
 
       <section class="initiative-content-block">
-        <h2>Overview</h2>
-        <p>A society is judged by how it protects its most vulnerable, including its elderly. In many low-income urban neighborhoods and rural villages across India, destitute senior citizens are abandoned or lack the financial means to afford basic food, medicines, and housing. Kram Yog Sewa Sadan's Senior Citizen Care initiatives work to restore dignity, security, and health to marginalized elders, helping them live their twilight years in peace.</p>
-        <p>Through our volunteer networks and healthcare clinics, we provide a consistent safety net—delivering monthly nutritional supplies, medical care, and supporting local old age shelters.</p>
+        <h2>Respecting Age. Supporting Dignity. Caring for Our Elders.</h2>
+        <p><strong>Karm Yog Sewa Sadan Trust</strong> seeks to promote the welfare and dignity of older persons through charitable initiatives focused on care, support, health awareness, social engagement and assistance for those facing economic or social hardship.</p>
+        <p>The objectives relating to old-age homes, senior citizen care centres, shelter, food, clothing, healthcare awareness and social well-being form the cornerstone of our dedicated elder care programs.</p>
       </section>
 
+      <!-- Our Programs Section per Client Spec -->
       <section class="initiative-content-block">
-        <h2>Key Projects</h2>
-        <ul class="initiative-bullet-list">
-          <li><strong>Monthly Nutrition Packs:</strong> Distributing dry grocery kits (containing wheat flour, rice, pulses, cooking oil, tea, and health supplements) to destitute elderly citizens.</li>
-          <li><strong>Geriatric Health Camps:</strong> Conducting free regular checkups for chronic age-related issues, including blood pressure monitoring, diabetes care, joint health, and eye diagnostics.</li>
-          <li><strong>Cataract Surgery Support:</strong> Funding free, safe cataract surgeries and post-operative glasses in partnership with reputable local eye care hospitals.</li>
-          <li><strong>Old Age Shelter Aid & Vriddhashram:</strong> Operating and supporting our residential <a href="old-age-home.php" style="color: #1b5182; font-weight: 700;">Old Age Home (Vriddhashram)</a> with clean bedding, 24/7 geriatric care, satvik hot meals, and hot-water geysers.</li>
-        </ul>
+        <h2>Our Programs</h2>
+        
+        <!-- A. Senior Citizen Welfare -->
+        <div class="welfare-card">
+          <h3><i class="fa-solid fa-hands-holding-child"></i> A. Senior Citizen Welfare</h3>
+          <ul class="welfare-list">
+            <li>Awareness about the needs and rights of older persons.</li>
+            <li>Community engagement and social participation.</li>
+            <li>Support initiatives for eligible older persons.</li>
+          </ul>
+        </div>
+
+        <!-- B. Residential Care -->
+        <div class="welfare-card">
+          <h3><i class="fa-solid fa-house-chimney-heart"></i> B. Residential Care</h3>
+          <ul class="welfare-list">
+            <li>Information about residential services, where operational.</li>
+            <li>Facilities and support provided.</li>
+            <li>Eligibility and admission procedure.</li>
+            <li>Family contact and grievance procedure.</li>
+          </ul>
+        </div>
+
+        <!-- C. Health and Well-being -->
+        <div class="welfare-card">
+          <h3><i class="fa-solid fa-heart-pulse"></i> C. Health and Well-being</h3>
+          <ul class="welfare-list">
+            <li>Health awareness.</li>
+            <li>Periodic check-up initiatives.</li>
+            <li>Geriatric health education.</li>
+            <li>Appropriate medical referrals.</li>
+          </ul>
+        </div>
+
+        <!-- D. Social and Recreational Activities -->
+        <div class="welfare-card">
+          <h3><i class="fa-solid fa-person-walking"></i> D. Social and Recreational Activities</h3>
+          <ul class="welfare-list">
+            <li>Cultural programmes.</li>
+            <li>Yoga and meditation activities, where appropriate.</li>
+            <li>Reading, recreation and community engagement.</li>
+          </ul>
+        </div>
+
       </section>
 
       <div class="initiative-quote-box">
-        <p>"Our seniors deserve a life of comfort and respect, not isolation. By delivering monthly groceries and sponsoring eye surgeries, Kram Yog Sewa Sadan stands as a family for those with no one to call their own."</p>
+        <p>“To care for those who once cared for us is one of the highest honors. Karm Yog Sewa Sadan Trust is committed to making sure every elder spends their golden years with love, dignity and care.”</p>
       </div>
-
-      <section class="initiative-content-block">
-        <h2>Our Impact</h2>
-        <p>Our monthly nutrition program currently supports over 1,200 destitute senior citizens. Additionally, our specialized eye care camps have successfully funded over 300 cataract operations, restoring vision, independence, and happiness to elderly individuals in remote rural settlements.</p>
-        <p>To learn more about our residential elder care facilities, visit our dedicated <a href="old-age-home.php" style="color: #1b5182; font-weight: 700;">Old Age Home & Elderly Care Ashram page</a>.</p>
-      </section>
 
     </article>
 
@@ -83,25 +147,23 @@
       
       <!-- Donation Appeal Card -->
       <section class="sidebar-cta-card">
-        <h3>Support Destitute Seniors</h3>
-        <p>Your contribution helps fund monthly grocery rations, essential geriatric medicines, and cataract surgeries for vulnerable elderly citizens.</p>
+        <h3>Support Elderly Care</h3>
+        <p>Your contribution helps provide nutritious meals, shelter, and medical care for vulnerable senior citizens.</p>
         <a href="../donate.php" class="sidebar-cta-button">Donate Now</a>
       </section>
 
       <!-- Sidebar Navigation Menu -->
       <nav class="sidebar-links-card" aria-label="Other Causes Links">
-        <h3>Our Work</h3>
+        <h3>Our Services</h3>
         <ul class="sidebar-links-list">
-          <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Old Age Home Service</a></li>
-          <li><a href="senior-citizen-care.php" style="color: #1b5182;"><i class="fa-solid fa-angle-right"></i> Senior Citizen Care</a></li>
-          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Persons with Disabilities</a></li>
-          <li><a href="educating-slum-children.php"><i class="fa-solid fa-angle-right"></i> Educating Slum Children</a></li>
+          <li><a href="senior-citizen-care.php" style="color: #1b5182; font-weight: 700;"><i class="fa-solid fa-angle-right"></i> Old Age Welfare</a></li>
+          <li><a href="old-age-home.php"><i class="fa-solid fa-angle-right"></i> Residential Care</a></li>
+          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Healthcare Assistance</a></li>
+          <li><a href="persons-with-disabilities.php"><i class="fa-solid fa-angle-right"></i> Disability Rehabilitation</a></li>
+          <li><a href="vocational-training.php"><i class="fa-solid fa-angle-right"></i> Vocational Training</a></li>
+          <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women & Family Welfare</a></li>
           <li><a href="rural-children-education.php"><i class="fa-solid fa-angle-right"></i> Rural Children Education</a></li>
-          <li><a href="health-projects.php"><i class="fa-solid fa-angle-right"></i> Health Projects</a></li>
-          <li><a href="women-empowerment.php"><i class="fa-solid fa-angle-right"></i> Women Empowerment</a></li>
-          <li><a href="animal-welfare.php"><i class="fa-solid fa-angle-right"></i> Animal Welfare</a></li>
-          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Swacch Bharat Mission</a></li>
-          <li><a href="disaster-management.php"><i class="fa-solid fa-angle-right"></i> Disaster Management</a></li>
+          <li><a href="swacch-bharat-mission.php"><i class="fa-solid fa-angle-right"></i> Community Welfare</a></li>
         </ul>
       </nav>
 
