@@ -15,7 +15,7 @@ $core_programmes = [
     [
         'title' => 'Old Age Welfare',
         'desc' => 'Promoting dignity, care, safety and social participation for senior citizens.',
-        'image' => 'assets/images/old_age_home.png',
+        'image' => '',
         'alt' => 'Old Age Welfare and Senior Care',
         'link' => 'pages/old-age-home.php',
         'tag' => 'Elders Care'
@@ -23,7 +23,7 @@ $core_programmes = [
     [
         'title' => 'Health & Well-being',
         'desc' => 'Supporting health awareness, medical camps and preventive healthcare initiatives.',
-        'image' => 'assets/images/health_projects.png',
+        'image' => '',
         'alt' => 'Healthcare and Medical Check-up Camps',
         'link' => 'pages/health-projects.php',
         'tag' => 'Healthcare'
@@ -31,7 +31,7 @@ $core_programmes = [
     [
         'title' => 'Disability Rehabilitation',
         'desc' => 'Promoting rehabilitation, accessibility, inclusion and participation.',
-        'image' => 'assets/images/disabled_persons.png',
+        'image' => '',
         'alt' => 'Disability Inclusion and Support',
         'link' => 'pages/persons-with-disabilities.php',
         'tag' => 'Inclusion'
@@ -39,7 +39,7 @@ $core_programmes = [
     [
         'title' => 'Education for All',
         'desc' => 'Supporting educational opportunities, reading facilities and assistance for disadvantaged learners.',
-        'image' => 'assets/images/rural_education.png',
+        'image' => '',
         'alt' => 'Education for Underprivileged Children',
         'link' => 'pages/rural-children-education.php',
         'tag' => 'Learning'
@@ -47,7 +47,7 @@ $core_programmes = [
     [
         'title' => 'Vocational Training',
         'desc' => 'Encouraging skills development, livelihood opportunities and productive engagement.',
-        'image' => 'assets/images/women_empowerment.png',
+        'image' => '',
         'alt' => 'Vocational Skills and Livelihood Training',
         'link' => 'pages/women-empowerment.php',
         'tag' => 'Livelihood'
@@ -55,7 +55,7 @@ $core_programmes = [
     [
         'title' => 'Women & Family Welfare',
         'desc' => 'Promoting women\'s education, family well-being and social awareness.',
-        'image' => 'assets/images/contributor2.png',
+        'image' => '',
         'alt' => 'Women and Family Welfare Programmes',
         'link' => 'pages/women-empowerment.php',
         'tag' => 'Empowerment'
@@ -63,7 +63,7 @@ $core_programmes = [
     [
         'title' => 'Community Development',
         'desc' => 'Encouraging social harmony, environmental responsibility and community participation.',
-        'image' => 'assets/images/swachh_bharat.png',
+        'image' => '',
         'alt' => 'Community Welfare and Environmental Action',
         'link' => 'pages/swacch-bharat-mission.php',
         'tag' => 'Harmony'
