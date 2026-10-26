@@ -1,0 +1,415 @@
+/* ============================================================
+   Narrative & Trust Welcome Component Stylesheet
+   Karm Yog Sewa Sadan Trust
+   ============================================================ */
+
+.trust-narrative-section {
+  background: #ffffff;
+  padding: 60px 0 50px 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.trust-narrative-section .header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* 1. Narrative Identity Card */
+.narrative-identity-card {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto 50px auto;
+}
+
+.trust-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(27, 81, 130, 0.08);
+  color: #1b5182;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(27, 81, 130, 0.2);
+}
+
+.trust-main-heading {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #1b5182;
+  margin: 0 0 10px 0;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.trust-subheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #13a34a;
+  margin: 0 0 24px 0;
+  letter-spacing: 0.2px;
+}
+
+/* Hindi Ribbon */
+.trust-hindi-ribbon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+  border: 1px solid #fed7aa;
+  border-left: 5px solid #f97316;
+  border-radius: 8px;
+  padding: 14px 24px;
+  margin: 0 auto 28px auto;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #9a3412;
+  line-height: 1.6;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.08);
+  max-width: 900px;
+}
+
+.trust-hindi-ribbon i {
+  color: #ea580c;
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+
+/* Introduction Text */
+.trust-intro-text p {
+  font-size: 1.05rem;
+  color: #475569;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.trust-intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* 4 Buttons Grid */
+.narrative-buttons-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.nar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: 50px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.nar-btn-primary {
+  background-color: #1b5182;
+  color: #ffffff;
+}
+
+.nar-btn-primary:hover {
+  background-color: #133c61;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(27, 81, 130, 0.3);
+}
+
+.nar-btn-secondary {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.nar-btn-secondary:hover {
+  background-color: #0369a1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.3);
+}
+
+.nar-btn-accent {
+  background-color: #13a34a;
+  color: #ffffff;
+}
+
+.nar-btn-accent:hover {
+  background-color: #0f853b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(19, 163, 74, 0.3);
+}
+
+.nar-btn-outline {
+  background-color: transparent;
+  color: #1b5182;
+  border: 1.5px solid #1b5182;
+}
+
+.nar-btn-outline:hover {
+  background-color: #1b5182;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* 2. Commitment to Humanity Card */
+.commitment-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 36px 40px;
+  margin-bottom: 40px;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+}
+
+.commitment-badge {
+  display: inline-block;
+  background: #1b5182;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+.commitment-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 16px 0;
+}
+
+.commitment-body p {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.commitment-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* 3. Dual Mission & Vision Grid */
+.narrative-vm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  margin-bottom: 45px;
+}
+
+.narrative-vm-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.narrative-vm-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(27, 81, 130, 0.1);
+}
+
+.narrative-vm-card.vision {
+  border-left: 5px solid #1b5182;
+}
+
+.narrative-vm-card.mission {
+  border-left: 5px solid #13a34a;
+}
+
+.nar-vm-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.nar-vm-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.narrative-vm-card.vision .nar-vm-icon {
+  background: rgba(27, 81, 130, 0.1);
+  color: #1b5182;
+}
+
+.narrative-vm-card.mission .nar-vm-icon {
+  background: rgba(19, 163, 74, 0.1);
+  color: #13a34a;
+}
+
+.nar-vm-header h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.narrative-vm-card p {
+  font-size: 0.98rem;
+  color: #475569;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* 4. How You Can Help Block */
+.how-help-block {
+  background: linear-gradient(135deg, #1b5182 0%, #153e66 100%);
+  border-radius: 14px;
+  padding: 42px 40px;
+  color: #ffffff;
+  box-shadow: 0 8px 25px rgba(27, 81, 130, 0.2);
+}
+
+.how-help-inner {
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.how-help-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.how-help-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px 0;
+}
+
+.how-help-desc {
+  font-size: 1rem;
+  color: #e2e8f0;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.how-help-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 26px;
+  border-radius: 50px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
+}
+
+.cta-donate {
+  background: #13a34a;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(19, 163, 74, 0.4);
+}
+
+.cta-donate:hover {
+  background: #0f853b;
+  transform: translateY(-2px);
+}
+
+.cta-volunteer {
+  background: #ffffff;
+  color: #1b5182;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.cta-volunteer:hover {
+  background: #f1f5f9;
+  transform: translateY(-2px);
+}
+
+.cta-partner {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.cta-partner:hover {
+  background: #ffffff;
+  color: #1b5182;
+  transform: translateY(-2px);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 900px) {
+  .narrative-vm-grid {
+    grid-template-columns: 1fr;
+  }
+  .trust-main-heading {
+    font-size: 2.1rem;
+  }
+  .commitment-card {
+    padding: 26px 20px;
+  }
+  .how-help-block {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-main-heading {
+    font-size: 1.75rem;
+  }
+  .trust-subheading {
+    font-size: 1.05rem;
+  }
+  .trust-hindi-ribbon {
+    font-size: 0.95rem;
+    padding: 12px 14px;
+  }
+  .nar-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .cta-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
