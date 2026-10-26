@@ -125,9 +125,11 @@
     <article class="initiative-main-content">
       
       <section class="initiative-content-block">
-        <h2>Partner with Us to Create Lasting Impact</h2>
-        <p>Eradicating hunger, enabling self-reliance, and providing quality education require collective societal commitment. Whether you are an individual wanting to sponsor a child's nutrition, or a large enterprise looking to make systemic changes under a CSR project, your partnership is vital to our mission.</p>
-        <p>Below are the multiple channels through which you can offer support. Rest assured, all contributions are tracked, audited, and receipted instantly with maximum transparency.</p>
+        <h2>Your Support Can Help Advance Charitable Welfare</h2>
+        <p>Your contribution can help <strong>Karm Yog Sewa Sadan Trust</strong> pursue its charitable objectives in areas such as older persons' welfare, healthcare awareness, education, rehabilitation, vocational development and community support.</p>
+        <p style="background: #f0f7ff; border-left: 4px solid #1b5182; padding: 12px 16px; border-radius: 4px; color: #1e40af; font-size: 13.5px; line-height: 1.6;">
+          <i class="fa-solid fa-circle-info" style="margin-right: 6px;"></i> The Trust welcomes support through lawful and authorized channels, subject to its governing documents and applicable requirements.
+        </p>
       </section>
 
       <!-- Ways to Support Cards List -->

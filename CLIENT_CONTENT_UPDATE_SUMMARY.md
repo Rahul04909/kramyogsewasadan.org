@@ -108,3 +108,27 @@ All updates strictly adhere to the official details:
 - **Header (`includes/header.php`) & Footer (`includes/footer.php`):**
   - Clean desktop navigation and mobile drawer with verified contacts and links.
   - Bank Account details (PNB) and UPI Scan & Pay QR Code in footer.
+
+---
+
+## 4. Donation & Volunteer Portal Updates
+
+- **Online Donations (`donate.php`, `components/donate-form.php`, `pages/how-to-help.php`):**
+  - **Heading:** *Your Support Can Help Advance Charitable Welfare*
+  - **Description:** Clear articulation of charitable objectives across elder care, healthcare, education, rehabilitation, vocational development, and community support.
+  - **Lawful Channels Notice:** Explicit compliance note confirming contributions are accepted exclusively through lawful and authorized channels subject to governing documents.
+
+- **Volunteer Portal (`volunteer.php`):**
+  - **Heading:** *Give Your Time. Share Your Skills. Make a Difference.*
+  - **Description:** *Volunteers can contribute to charitable initiatives through their time, skills, professional knowledge and community participation.*
+  - **Potential Volunteer Roles Grid (8 Roles):**
+    1. Community outreach.
+    2. Educational support.
+    3. Health awareness activities.
+    4. Senior citizen engagement.
+    5. Event coordination.
+    6. Documentation and administration.
+    7. Digital communication.
+    8. Fundraising support, where authorised.
+  - **Certification:** Updated volunteer certificate references to *Karm Yog Sewa Sadan Volunteer Certificate*.
+

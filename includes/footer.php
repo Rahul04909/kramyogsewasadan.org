@@ -66,7 +66,7 @@ require_once __DIR__ . '/visitor-counter.php';
       <ul class="footer-links-list">
         <li><a href="<?php echo $footer_base_url; ?>pages/old-age-home.php" class="footer-link">Old Age Welfare</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/senior-citizen-care.php" class="footer-link">Residential Care</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/health-projects.php" class="footer-link">Healthcare &amp; & medical assistance</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/health-projects.php" class="footer-link">Healthcare &amp; Medical Assistance</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/persons-with-disabilities.php" class="footer-link">Disability Inclusion</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/rural-children-education.php" class="footer-link">Education &amp; Scholarships</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/women-empowerment.php" class="footer-link">Women &amp; Family Welfare</a></li>

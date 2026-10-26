@@ -163,6 +163,80 @@ try {
       </div>
     </section>
 
+    <!-- POTENTIAL VOLUNTEER ROLES (Client Specification) -->
+    <section class="vol-roles-section" aria-labelledby="volRolesHeading">
+      <div class="header-container">
+        <h2 class="vol-section-heading" id="volRolesHeading">Give Your Time. Share Your Skills. Make a Difference.</h2>
+        <p class="vol-roles-intro-sub">
+          Volunteers can contribute to charitable initiatives through their time, skills, professional knowledge and community participation.
+        </p>
+        
+        <h3 style="font-size: 1.25rem; font-weight: 700; color: #1b5182; text-align: center; margin-bottom: 25px;">
+          Potential Volunteer Roles
+        </h3>
+
+        <div class="vol-roles-grid">
+          
+          <!-- 1. Community Outreach -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-users"></i></div>
+            <div class="vol-role-title">Community outreach.</div>
+            <p class="vol-role-desc">Connecting with local communities, spreading awareness about welfare initiatives, and mobilizing grassroots support.</p>
+          </div>
+
+          <!-- 2. Educational Support -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="vol-role-title">Educational support.</div>
+            <p class="vol-role-desc">Assisting teaching sessions, tutoring underprivileged children, and organizing educational learning materials.</p>
+          </div>
+
+          <!-- 3. Health Awareness Activities -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="vol-role-title">Health awareness activities.</div>
+            <p class="vol-role-desc">Supporting medical camps, health check-up drives, hygiene workshops, and healthy ageing education.</p>
+          </div>
+
+          <!-- 4. Senior Citizen Engagement -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-person-cane"></i></div>
+            <div class="vol-role-title">Senior citizen engagement.</div>
+            <p class="vol-role-desc">Spending quality time with elderly residents, providing companionship, and facilitating recreational & yoga activities.</p>
+          </div>
+
+          <!-- 5. Event Coordination -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-calendar-check"></i></div>
+            <div class="vol-role-title">Event coordination.</div>
+            <p class="vol-role-desc">Planning, logistical setup, volunteer supervision, and on-ground execution of charitable distribution drives and events.</p>
+          </div>
+
+          <!-- 6. Documentation and Administration -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-file-lines"></i></div>
+            <div class="vol-role-title">Documentation and administration.</div>
+            <p class="vol-role-desc">Maintaining program records, tracking volunteer hours, preparing project summaries, and supporting administrative tasks.</p>
+          </div>
+
+          <!-- 7. Digital Communication -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-bullhorn"></i></div>
+            <div class="vol-role-title">Digital communication.</div>
+            <p class="vol-role-desc">Social media storytelling, content writing, photography, digital campaigns, and website communication support.</p>
+          </div>
+
+          <!-- 8. Fundraising Support, Where Authorised -->
+          <div class="vol-role-card">
+            <div class="vol-role-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+            <div class="vol-role-title">Fundraising support, where authorised.</div>
+            <p class="vol-role-desc">Assisting authorized charitable resource mobilization, donor relations, and partnership outreach under Trust guidelines.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- WHY VOLUNTEER -->
     <section class="vol-why-section" aria-labelledby="whyVolunteerHeading">
       <div class="header-container">
@@ -184,7 +258,7 @@ try {
           <div class="vol-why-card">
             <div class="vol-why-icon"><i class="fa-solid fa-award"></i></div>
             <h3>Get Recognised</h3>
-            <p>Receive an official TGRF Volunteer Certificate, LinkedIn recommendation, and appreciation letter.</p>
+            <p>Receive an official Karm Yog Sewa Sadan Volunteer Certificate, LinkedIn recommendation, and appreciation letter.</p>
           </div>
 
         </div>

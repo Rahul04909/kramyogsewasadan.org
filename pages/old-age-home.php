@@ -305,10 +305,9 @@
       <!-- Section 1: Overview & Philosophy -->
       <section class="initiative-content-block">
         <h2>A Home of Dignity, Comfort, and Love</h2>
-        <p>Respecting Age. Supporting Dignity. Caring for Our Elders.
-          Karm Yog Sewa Sadan Trust seeks to promote the welfare and dignity of older persons through charitable initiatives focused on care, support, health awareness, social engagement and assistance for those facing economic or social hardship.
-The objectives relating to old-age homes, senior citizen care centres, shelter, food, clothing, healthcare awareness and social well-being.        
-        </p>
+        <p style="font-weight: 700; color: #1b5182; font-size: 1.1rem; margin-bottom: 8px;">Respecting Age. Supporting Dignity. Caring for Our Elders.</p>
+        <p>Karm Yog Sewa Sadan Trust seeks to promote the welfare and dignity of older persons through charitable initiatives focused on care, support, health awareness, social engagement and assistance for those facing economic or social hardship.</p>
+        <p>The objectives relating to old-age homes, senior citizen care centres, shelter, food, clothing, healthcare awareness and social well-being form the core of our ashram's daily operations.</p>
         <p><strong>Kram Yog Sewa Sadan's Old Age Home (Vriddhashram)</strong> was established to provide a true sanctuary—not merely a shelter with four walls, but a vibrant, loving home where senior citizens live with self-respect, lifelong companionship, round-the-clock medical attention, and spiritual peace.</p>
       </section>
 

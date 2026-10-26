@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Donations - Kram Yog Sewa Sadan</title>
+  <title>Online Donations | Karm Yog Sewa Sadan Trust</title>
+  <meta name="description" content="Support Karm Yog Sewa Sadan Trust. Your contribution helps advance charitable welfare in elder care, healthcare, education, disability rehabilitation, and livelihoods.">
   
   <!-- FontAwesome 6 CDN for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">

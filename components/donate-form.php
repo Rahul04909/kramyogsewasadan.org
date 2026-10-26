@@ -14,6 +14,21 @@ if ($pos !== false) {
 <div class="donate-page-section" id="donateFormSection">
   <div class="header-container">
 
+    <!-- Charitable Welfare Appeal Section per Client Specification -->
+    <div class="donate-welfare-intro" style="background: #ffffff; border: 1px solid #e2e8f0; border-left: 5px solid #1b5182; border-radius: 10px; padding: 26px 30px; margin-bottom: 28px; box-shadow: 0 4px 15px rgba(27, 81, 130, 0.05);">
+      <h2 style="font-size: 1.4rem; font-weight: 800; color: #1b5182; margin: 0 0 10px 0; display: flex; align-items: center; gap: 12px;">
+        <i class="fa-solid fa-hand-holding-heart" style="color: #13a34a;"></i>
+        Your Support Can Help Advance Charitable Welfare
+      </h2>
+      <p style="font-size: 15px; color: #4a5568; line-height: 1.7; margin: 0 0 14px 0;">
+        Your contribution can help <strong>Karm Yog Sewa Sadan Trust</strong> pursue its charitable objectives in areas such as older persons' welfare, healthcare awareness, education, rehabilitation, vocational development and community support.
+      </p>
+      <div style="background: #f0f7ff; border: 1px solid #bfdbfe; border-radius: 8px; padding: 12px 18px; display: flex; align-items: flex-start; gap: 12px; font-size: 13.5px; color: #1e40af; line-height: 1.6;">
+        <i class="fa-solid fa-shield-halved" style="color: #1b5182; margin-top: 3px; font-size: 15px;"></i>
+        <span>The Trust welcomes support through lawful and authorized channels, subject to its governing documents and applicable requirements.</span>
+      </div>
+    </div>
+
     <!-- Cause Selector Tabs -->
     <div class="donate-tabs" role="tablist" aria-label="Donation Causes">
       <button class="donate-tab-btn active" data-tab="feed" role="tab" aria-selected="true">
