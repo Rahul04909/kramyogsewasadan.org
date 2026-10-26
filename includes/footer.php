@@ -20,7 +20,7 @@ require_once __DIR__ . '/visitor-counter.php';
     <!-- Column 1: Branding, Tagline, Socials & QR Code -->
     <div class="footer-brand">
       <img src="<?php echo $footer_base_url; ?>assets/logo.png" alt="Kram Yog Seva Sadan Logo" class="footer-brand-logo">
-      <p class="footer-tagline">Kram Yog Seva Sadan is a non profit organisation that strives to make the world a better place for senior citizens, disabled people, and for the environment</p>
+      <p class="footer-tagline"><strong>Karm Yog Sewa Sadan Trust</strong> — Serving Humanity with Dignity, Compassion and Commitment. Dedicated to the welfare of senior citizens, healthcare, education, and community inclusion.</p>
       
       <!-- Social Media Icons -->
       <div class="footer-socials">
@@ -35,7 +35,7 @@ require_once __DIR__ . '/visitor-counter.php';
       <div class="footer-bank-card">
         <div class="footer-bank-title"><i class="fa-solid fa-building-columns"></i> Bank Account Details</div>
         <div class="footer-bank-details">
-          <div><span>A/C Name:</span> Kram Yog Seva Sadan Trust</div>
+          <div><span>A/C Name:</span> Karm Yog Seva Sadan Trust</div>
           <div><span>Bank Name:</span>Punjab National Bank</div>
           <div><span>A/C No:</span> 1409102100002093</div>
           <div><span>IFSC Code:</span>PUNB014091</div>
@@ -49,12 +49,12 @@ require_once __DIR__ . '/visitor-counter.php';
     <div class="footer-nav-col">
       <h3>About Us</h3>
       <ul class="footer-links-list">
-        <li><a href="<?php echo $footer_base_url; ?>pages/about-us.php" class="footer-link">About Us</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/certifications.php" class="footer-link">Certifications & Legal</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/vision-mission.php" class="footer-link">Our Vision and Mission</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/inspiration.php" class="footer-link">Inspiration - The Story of Hope</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/about-us.php" class="footer-link">About the Trust</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/about-us.php#objectives" class="footer-link">Objectives</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/vision-mission.php" class="footer-link">Mission, Vision & Values</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/board-trustees.php" class="footer-link">Board of Trustees</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/tax-exemption.php" class="footer-link">Tax Exemption</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/certifications.php" class="footer-link">Trust Registration & CSR</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/tax-exemption.php" class="footer-link">Tax Exemption (80G/12A)</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/donation-faqs.php" class="footer-link">Donation FAQs</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/terms-conditions.php" class="footer-link">Terms and Conditions</a></li>
       </ul>
@@ -64,16 +64,14 @@ require_once __DIR__ . '/visitor-counter.php';
     <div class="footer-nav-col">
       <h3>Our Work</h3>
       <ul class="footer-links-list">
+        <li><a href="<?php echo $footer_base_url; ?>pages/old-age-home.php" class="footer-link">Old Age Welfare</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/senior-citizen-care.php" class="footer-link">Residential Care</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/health-projects.php" class="footer-link">Health & Rehabilitation</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/persons-with-disabilities.php" class="footer-link">Disability Inclusion</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/rural-children-education.php" class="footer-link">Education & Scholarships</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/women-empowerment.php" class="footer-link">Women & Family Welfare</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/swacch-bharat-mission.php" class="footer-link">Community Welfare</a></li>
         <li><a href="<?php echo $footer_base_url; ?>pages/animal-welfare.php" class="footer-link">Animal Welfare</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/disaster-management.php" class="footer-link">Disaster Management</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/educating-slum-children.php" class="footer-link">Educating Slum Children</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/health-projects.php" class="footer-link">Health Projects</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/persons-with-disabilities.php" class="footer-link">Persons with Disabilities</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/rural-children-education.php" class="footer-link">Rural Children Education</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/old-age-home.php" class="footer-link">Old Age Home</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/senior-citizen-care.php" class="footer-link">Senior Citizen Care</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/swacch-bharat-mission.php" class="footer-link">Swacch Bharat Mission</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>pages/women-empowerment.php" class="footer-link">Women Empowerment</a></li>
       </ul>
     </div>
 
@@ -81,14 +79,17 @@ require_once __DIR__ . '/visitor-counter.php';
     <div class="footer-nav-col">
       <h3>Donate</h3>
       <ul class="footer-links-list">
-        <li><a href="<?php echo $footer_base_url; ?>donate.php" class="footer-link">Online donations</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>donate.php" class="footer-link">Sponsor a Child Education</a></li>
-        <li><a href="<?php echo $footer_base_url; ?>donate.php" class="footer-link">Sponsor Foods For Animals</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>donate.php" class="footer-link">Online Donations</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>donate.php" class="footer-link">Senior Citizen Care</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>donate.php" class="footer-link">Disability Support</a></li>
       </ul>
 
       <h3 class="sub-heading">Get in Touch</h3>
       <ul class="footer-links-list">
-        <li><a href="<?php echo $footer_base_url; ?>pages/contact-us.php" class="footer-link">Contact Us</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/contact-us.php" class="footer-link"><i class="fa-solid fa-location-dot" style="color: #13a34a;"></i> Kurukshetra & Sonipat</a></li>
+        <li><a href="tel:+919671413639" class="footer-link"><i class="fa-solid fa-phone" style="color: #13a34a;"></i> +91 9671413639</a></li>
+        <li><a href="tel:+918396012089" class="footer-link"><i class="fa-solid fa-phone" style="color: #13a34a;"></i> +91 8396012089</a></li>
+        <li><a href="mailto:karmyogsewasadan@gmail.com" class="footer-link" style="word-break: break-all;"><i class="fa-solid fa-envelope" style="color: #13a34a;"></i> karmyogsewasadan@gmail.com</a></li>
       </ul>
 
       <h3 class="sub-heading">Get Involved</h3>

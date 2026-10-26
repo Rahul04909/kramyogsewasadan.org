@@ -10,83 +10,96 @@ if (strpos($request_uri, 'kramyogsewasadan.org') !== false) {
     $work_base_url = '/';
 }
 
-// Define the initiatives data array for cleaner rendering
-$initiatives = [
+// 7 Official Programme Cards per Client Specification
+$core_programmes = [
     [
-        'label' => 'Animal Welfare',
-        'image' => 'assets/images/animal_welfare.png',
-        'alt' => 'Volunteers caring for street animals',
-        'link' => 'pages/animal-welfare.php'
+        'title' => 'Old Age Welfare',
+        'desc' => 'Promoting dignity, care, safety and social participation for senior citizens.',
+        'image' => 'assets/images/old_age_home.png',
+        'alt' => 'Old Age Welfare and Senior Care',
+        'link' => 'pages/old-age-home.php',
+        'tag' => 'Elders Care'
     ],
     [
-        'label' => 'Disaster Management',
-        'image' => 'assets/images/disaster_relief.png',
-        'alt' => 'Disaster relief workers distributing aid',
-        'link' => 'pages/disaster-management.php'
-    ],
-    [
-        'label' => 'Educating Slum Children',
-        'image' => 'assets/images/slum_education.png',
-        'alt' => 'Teacher conducting outdoor classes in urban slum',
-        'link' => 'pages/educating-slum-children.php'
-    ],
-    [
-        'label' => 'Health Projects',
+        'title' => 'Health & Well-being',
+        'desc' => 'Supporting health awareness, medical camps and preventive healthcare initiatives.',
         'image' => 'assets/images/health_projects.png',
-        'alt' => 'Doctor examining children in free health camp',
-        'link' => 'pages/health-projects.php'
+        'alt' => 'Healthcare and Medical Check-up Camps',
+        'link' => 'pages/health-projects.php',
+        'tag' => 'Healthcare'
     ],
     [
-        'label' => 'Persons with Disabilities',
+        'title' => 'Disability Rehabilitation',
+        'desc' => 'Promoting rehabilitation, accessibility, inclusion and participation.',
         'image' => 'assets/images/disabled_persons.png',
-        'alt' => 'Empowered person in wheelchair working on computer',
-        'link' => 'pages/persons-with-disabilities.php'
+        'alt' => 'Disability Inclusion and Support',
+        'link' => 'pages/persons-with-disabilities.php',
+        'tag' => 'Inclusion'
     ],
     [
-        'label' => 'Rural Children Education',
+        'title' => 'Education for All',
+        'desc' => 'Supporting educational opportunities, reading facilities and assistance for disadvantaged learners.',
         'image' => 'assets/images/rural_education.png',
-        'alt' => 'Happy children sitting in a rural classroom',
-        'link' => 'pages/rural-children-education.php'
+        'alt' => 'Education for Underprivileged Children',
+        'link' => 'pages/rural-children-education.php',
+        'tag' => 'Learning'
     ],
     [
-        'label' => 'Senior Citizen Care',
-        'image' => 'assets/images/senior_care.png',
-        'alt' => 'Volunteer caring for elderly lady',
-        'link' => 'pages/senior-citizen-care.php'
-    ],
-    [
-        'label' => 'Swacch Bharat Mission',
-        'image' => 'assets/images/swachh_bharat.png',
-        'alt' => 'Volunteers cleaning public park for hygiene',
-        'link' => 'pages/swacch-bharat-mission.php'
-    ],
-    [
-        'label' => 'Women Empowerment',
+        'title' => 'Vocational Training',
+        'desc' => 'Encouraging skills development, livelihood opportunities and productive engagement.',
         'image' => 'assets/images/women_empowerment.png',
-        'alt' => 'Women learning vocational skills in workshop',
-        'link' => 'pages/women-empowerment.php'
+        'alt' => 'Vocational Skills and Livelihood Training',
+        'link' => 'pages/women-empowerment.php',
+        'tag' => 'Livelihood'
+    ],
+    [
+        'title' => 'Women & Family Welfare',
+        'desc' => 'Promoting women\'s education, family well-being and social awareness.',
+        'image' => 'assets/images/contributor2.png',
+        'alt' => 'Women and Family Welfare Programmes',
+        'link' => 'pages/women-empowerment.php',
+        'tag' => 'Empowerment'
+    ],
+    [
+        'title' => 'Community Development',
+        'desc' => 'Encouraging social harmony, environmental responsibility and community participation.',
+        'image' => 'assets/images/swachh_bharat.png',
+        'alt' => 'Community Welfare and Environmental Action',
+        'link' => 'pages/swacch-bharat-mission.php',
+        'tag' => 'Harmony'
     ]
 ];
 ?>
-<!-- Our Work Initiatives Component -->
-<section class="our-work-section" id="ourWorkSection" aria-label="Our Welfare Initiatives">
+<!-- Our Core Areas of Work Component -->
+<section class="our-work-section" id="coreAreasSection" aria-label="Our Core Areas of Work">
   <div class="header-container">
     
     <!-- Title Section -->
-    <h2 class="our-work-title">How we work to make a difference</h2>
+    <div class="core-header-center">
+      <span class="core-pill-badge"><i class="fas fa-hand-holding-heart"></i> Core Welfare Focus</span>
+      <h2 class="our-work-title">Our Core Areas of Work</h2>
+      <p class="core-subtitle">Dedicated charitable programmes advancing dignity, healthcare, education, inclusion, and community welfare across society.</p>
+    </div>
     
-    <!-- Circles Row/Grid -->
-    <div class="work-grid">
-      <?php foreach ($initiatives as $item): ?>
-        <a href="<?php echo $work_base_url . $item['link']; ?>" class="work-item" aria-label="<?php echo htmlspecialchars($item['label']); ?>">
-          <div class="work-img-wrapper">
-            <img src="<?php echo $work_base_url . $item['image']; ?>" 
-                 alt="<?php echo htmlspecialchars($item['alt']); ?>" 
-                 class="work-img" 
+    <!-- 7 Programme Cards Grid -->
+    <div class="core-cards-grid">
+      <?php foreach ($core_programmes as $prog): ?>
+        <article class="core-prog-card">
+          <div class="core-card-img-wrap">
+            <img src="<?php echo $work_base_url . $prog['image']; ?>" 
+                 alt="<?php echo htmlspecialchars($prog['alt']); ?>" 
+                 class="core-card-img" 
                  loading="lazy">
+            <span class="core-card-tag"><?php echo htmlspecialchars($prog['tag']); ?></span>
           </div>
-          <span class="work-label"><?php echo htmlspecialchars($item['label']); ?></span>
-        </a>
+          <div class="core-card-body">
+            <h3 class="core-card-title"><?php echo htmlspecialchars($prog['title']); ?></h3>
+            <p class="core-card-desc"><?php echo htmlspecialchars($prog['desc']); ?></p>
+            <a href="<?php echo $work_base_url . $prog['link']; ?>" class="core-card-link" aria-label="Read more about <?php echo htmlspecialchars($prog['title']); ?>">
+              Explore Initiative <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
       <?php endforeach; ?>
     </div>
 
