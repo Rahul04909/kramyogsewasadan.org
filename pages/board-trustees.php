@@ -98,7 +98,7 @@
         <p>Karm Yog Sewa Sadan Trust is guided and administered by its dedicated Board of Trustees, constituted under the Indian Trust Act. The Board brings together compassionate individuals committed to the welfare of senior citizens, healthcare assistance, rehabilitation, education, and community advancement.</p>
 
         <!-- Board Roles Grid -->
-        <div class="board-roles-grid">
+        <!-- <div class="board-roles-grid">
           <div class="role-badge-card">
             <i class="fa-solid fa-user-tie"></i>
             <div>
@@ -123,7 +123,7 @@
               <span class="role-name">Other Trustees</span>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Board Responsibilities per Client Spec -->
         <div class="resp-box">
