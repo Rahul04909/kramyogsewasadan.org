@@ -299,7 +299,7 @@
       
       <!-- Initiative Banner Image -->
       <div class="initiative-banner-wrapper">
-        <img src="../assets/images/old_age_home.png" alt="Happy senior citizens relaxing in the peaceful garden courtyard of Kram Yog Sewa Sadan Old Age Home" class="initiative-main-img" loading="lazy">
+        <img src="../assets/images/kyss_senior_wellfare.jpg" alt="Happy senior citizens relaxing in the peaceful garden courtyard of Kram Yog Sewa Sadan Old Age Home" class="initiative-main-img" loading="lazy">
       </div>
 
       <!-- Section 1: Overview & Philosophy -->
