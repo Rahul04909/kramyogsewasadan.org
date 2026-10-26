@@ -11,6 +11,9 @@
   <!-- Custom Header Stylesheet -->
   <link rel="stylesheet" href="assets/css/header.css">
   
+  <!-- Custom News Ticker Stylesheet -->
+  <link rel="stylesheet" href="assets/css/news-ticker.css">
+  
   <!-- Custom Hero Stylesheet -->
   <link rel="stylesheet" href="assets/css/hero.css">
   
@@ -66,6 +69,9 @@
 
   <!-- Call the Header Component -->
   <?php include 'includes/header.php'; ?>
+
+  <!-- Call the News Ticker Component -->
+  <?php include 'components/news-ticker.php'; ?>
 
   <!-- Call the Hero Slider Component -->
   <?php include 'components/hero.php'; ?>
