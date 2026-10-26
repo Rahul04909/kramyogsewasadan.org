@@ -95,6 +95,8 @@ require_once __DIR__ . '/visitor-counter.php';
       <h3 class="sub-heading">Get Involved</h3>
       <ul class="footer-links-list">
         <li><a href="<?php echo $footer_base_url; ?>volunteer.php" class="footer-link">Join as Volunteer</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/partner-with-us.php" class="footer-link">Partner With Us</a></li>
+        <li><a href="<?php echo $footer_base_url; ?>pages/csr-collaboration.php" class="footer-link">CSR Collaboration</a></li>
       </ul>
     </div>
 

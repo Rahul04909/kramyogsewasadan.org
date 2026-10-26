@@ -132,3 +132,29 @@ All updates strictly adhere to the official details:
     8. Fundraising support, where authorised.
   - **Certification:** Updated volunteer certificate references to *Karm Yog Sewa Sadan Volunteer Certificate*.
 
+---
+
+## 5. Institutional Partnerships & CSR Portals
+
+### Page 17: Partner With Us (New Page)
+- **File:** [`pages/partner-with-us.php`](file:///c:/xampp/htdocs/kramyogsewasadan.org/pages/partner-with-us.php)
+- **Heading:** *Together, We Can Strengthen Community Welfare*
+- **Potential Partners (7 Categories):**
+  1. Educational institutions.
+  2. Hospitals and healthcare providers.
+  3. NGOs and charitable organisations.
+  4. Corporate social responsibility teams.
+  5. Community organisations.
+  6. Professional volunteers.
+  7. Government agencies, where appropriate.
+- **Suggested Partnership Areas (7 Pillars):** Health awareness, Education, Senior citizen welfare, Vocational development, Community development, Environmental activities, Training and capacity building.
+- **Partnership Enquiry Form:** Organisation name, Contact person, Official email, Proposed collaboration, Area of interest, Brief description, Preferred method of contact.
+
+### Page 18: CSR Collaboration (New Page)
+- **File:** [`pages/csr-collaboration.php`](file:///c:/xampp/htdocs/kramyogsewasadan.org/pages/csr-collaboration.php)
+- **Heading:** *CSR Collaboration*
+- **Statutory Eligibility:** Explicitly features eligibility to receive CSR funding under the Companies Act with **CSR-1 Certificate** issued by Ministry of Corporate Affairs (MCA).
+- **Potential Collaboration Areas:** Senior citizen welfare & residential care, Education for underprivileged children, Healthcare awareness & diagnostic camps, Vocational training & livelihood support, Disability rehabilitation & inclusion, Community welfare & sanitation.
+- **Corporate Advantages & Reporting:** Audited fund utilization reporting, direct grassroots implementation, and employee volunteering engagement.
+
+

@@ -87,6 +87,8 @@ require_once __DIR__ . '/visitor-counter.php';
       <li><a href="<?php echo $base_url; ?>pages/news-stories.php" class="mobile-nav-link">News &amp; Stories</a></li>
       <li><a href="<?php echo $base_url; ?>pages/impact-reports.php" class="mobile-nav-link">Impact Reports</a></li>
       <li><a href="<?php echo $base_url; ?>pages/blogs.php" class="mobile-nav-link">Blogs</a></li>
+      <li><a href="<?php echo $base_url; ?>pages/partner-with-us.php" class="mobile-nav-link">Partner With Us</a></li>
+      <li><a href="<?php echo $base_url; ?>pages/csr-collaboration.php" class="mobile-nav-link">CSR Collaboration</a></li>
       <li><a href="<?php echo $base_url; ?>pages/contact-us.php" class="mobile-nav-link">Contact Us</a></li>
     </ul>
 
